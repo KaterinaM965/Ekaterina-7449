@@ -1,0 +1,40 @@
+@import "null.css";
+h3 {
+	color: brown;
+}
+
+.pink {
+	color: palevioletred;
+}
+span {
+	color: yellow;
+}
+
+.grey {
+	color: gray;
+}
+
+.gold {
+	color: gold;
+}
+.green {
+	color: green;
+}
+.red {
+	color: red;
+}
+.purple {
+	color: purple;
+}
+.orang {
+	color: orange;
+}
+.greenyellow {
+	color: greenyellow;
+}
+.blue {
+	color: blue;
+}
+footer {
+	color: slateblue;
+}
