@@ -1,40 +1,32 @@
 @import "null.css";
-h3 {
-	color: brown;
-}
 
-.pink {
-	color: palevioletred;
+.text {
+   color: silver;
+}
+#block {
+   color: slategrey;
+}
+.paragraf {
+   color: gold;
+}
+.planet span {
+   color: blue;
+}
+.planet {
+   color: green;
+}
+p {
+   color: orange;
+}
+.paragraf.planets {
+   color: lightskyblue;
+}
+.about {
+   color: blueviolet;
+}
+.footer {
+   color: brown;
 }
 span {
-	color: yellow;
-}
-
-.grey {
-	color: gray;
-}
-
-.gold {
-	color: gold;
-}
-.green {
-	color: green;
-}
-.red {
-	color: red;
-}
-.purple {
-	color: purple;
-}
-.orang {
-	color: orange;
-}
-.greenyellow {
-	color: greenyellow;
-}
-.blue {
-	color: blue;
-}
-footer {
-	color: slateblue;
+   color: red;
 }
