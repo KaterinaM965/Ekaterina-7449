@@ -1,32 +1,74 @@
 @import "null.css";
 
-.text {
-   color: silver;
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&family=Dongle:wght@300;700&display=swap");
+
+@font-face {
+   font-family: "Montserrat-ExtraLight";
+   src: url(../fonts/Montserrat-ExtraLight.woff2) format("woff2"),
+      url("../fonts/Montserrat-ExtraLight.woff") format("woff");
+   font-weight: 200;
+   font-style: normal;
+   font-display: swap;
 }
-#block {
-   color: slategrey;
+@font-face {
+   font-family: "Montserrat-MediumItalic";
+   src: url(../fonts/Montserrat-MediumItalic.woff2) format("woff2"),
+      url("../fonts/Montserrat-MediumItalic.woff") format("woff");
+   font-weight: 500;
+   font-style: italic;
+   font-display: swap;
 }
-.paragraf {
-   color: gold;
+body {
+   font-family: "Dongle";
+   font-weight: 600;
 }
-.planet span {
-   color: blue;
+
+h1 {
+   font-size: 24px;
+   text-shadow: -5px 9px 1px palevioletred, -5px 9px 20px yellow;
+   color: yellowgreen;
 }
-.planet {
-   color: green;
+h1 span {
+   color: crimson;
 }
 p {
-   color: orange;
+   color: sandybrown;
+   text-decoration: underline;
 }
-.paragraf.planets {
-   color: lightskyblue;
+.list {
+   color: red;
+   font-style: italic;
+   font-weight: 500;
 }
-.about {
-   color: blueviolet;
+
+.block {
+   font-family: "Montserrat-ExtraLight";
+   color: springgreen;
+   text-align: center;
 }
-.footer {
-   color: brown;
+.page {
+   color: tomato;
 }
 span {
-   color: red;
+   color: black;
+   text-decoration: overline;
+}
+.paragraf {
+   font-size: 20px;
+   text-shadow: 7px 8px 8px plum, 10px -8px 20px rgb(202, 17, 17);
+}
+.text {
+   font-family: "Montserrat-MediumItalic";
+   text-align: right;
+   text-transform: uppercase;
+}
+.name {
+   text-indent: 30px;
+   text-decoration: line-through;
+   line-height: 30px;
+   text-shadow: 5px 2px 7px blue;
+}
+.mane {
+   letter-spacing: 5px;
+   color: purple;
 }
