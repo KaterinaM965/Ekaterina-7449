@@ -1,74 +1,165 @@
+/* &display=swap */
 @import "null.css";
 
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&family=Dongle:wght@300;700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lato:regular,700,900&display=swap");
 
 @font-face {
-   font-family: "Montserrat-ExtraLight";
-   src: url(../fonts/Montserrat-ExtraLight.woff2) format("woff2"),
-      url("../fonts/Montserrat-ExtraLight.woff") format("woff");
-   font-weight: 200;
-   font-style: normal;
-   font-display: swap;
+	font-family: "Lato";
+	src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
 }
 @font-face {
-   font-family: "Montserrat-MediumItalic";
-   src: url(../fonts/Montserrat-MediumItalic.woff2) format("woff2"),
-      url("../fonts/Montserrat-MediumItalic.woff") format("woff");
-   font-weight: 500;
-   font-style: italic;
-   font-display: swap;
+	font-family: "Lato";
+	src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
 }
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Montserrat-ExtraLight";
+	src: url("../fonts/Montserrat-ExtraLight.woff2") format("woff2"),
+		url("../fonts/Montserrat-ExtraLight.woff") format("woff");
+	font-weight: 200;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Montserrat-MediumItalic";
+	src: url("../fonts/Montserrat-MediumItalic.woff2") format("woff2"),
+		url("../fonts/Montserrat-MediumItalic.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
 body {
-   font-family: "Dongle";
-   font-weight: 600;
+	font-family: "Montserrat-MediumItalic", "serif";
+	font-size: 20px;
+}
+h1 {
+	margin: 0 0 20px 0px;
+	text-align: center;
+	font-size: 30px;
+	color: indigo;
+	text-shadow: 3px 5px 10px #000, 3px 5px 10px purple;
+}
+.menu {
+	padding-left: 25px;
 }
 
-h1 {
-   font-size: 24px;
-   text-shadow: -5px 9px 1px palevioletred, -5px 9px 20px yellow;
-   color: yellowgreen;
-}
-h1 span {
-   color: crimson;
-}
-p {
-   color: sandybrown;
-   text-decoration: underline;
-}
-.list {
-   color: red;
-   font-style: italic;
-   font-weight: 500;
+header {
+	padding-bottom: 20px;
 }
 
 .block {
-   font-family: "Montserrat-ExtraLight";
-   color: springgreen;
-   text-align: center;
+	padding: 0 0 50px 0;
 }
-.page {
-   color: tomato;
-}
-span {
-   color: black;
-   text-decoration: overline;
+
+h2 {
+	padding: 0 0 10px 0;
+	text-align: center;
+	color: gold;
+	font-weight: 200;
+	text-transform: uppercase;
 }
 .paragraf {
-   font-size: 20px;
-   text-shadow: 7px 8px 8px plum, 10px -8px 20px rgb(202, 17, 17);
+	margin-left: 50px;
+	text-decoration: underline;
 }
-.text {
-   font-family: "Montserrat-MediumItalic";
-   text-align: right;
-   text-transform: uppercase;
+span {
+	color: sandybrown;
+	text-transform: uppercase;
 }
-.name {
-   text-indent: 30px;
-   text-decoration: line-through;
-   line-height: 30px;
-   text-shadow: 5px 2px 7px blue;
+.block-1 {
+	max-width: 800px;
+	margin: 0px auto 50px;
+	color: red;
 }
-.mane {
-   letter-spacing: 5px;
-   color: purple;
+h3 {
+	margin: 0 0 30px 100px;
+	font-size: 30px;
+}
+p {
+}
+
+.block-2 {
+	text-align: right;
+	color: orange;
+	padding-bottom: 30px;
+}
+
+.block-3 {
+	min-width: 300px;
+	padding: 0 0 50px 350px;
+	color: green;
+}
+
+.block-4 {
+	margin: 0 0 50px 100px;
+	max-height: 130px;
+	overflow: scroll;
+	width: 800px;
+	color: paleturquoise;
+}
+
+.block-5 {
+	margin: 0 0 50px 300px;
+}
+
+.block-6 {
+	width: 800px;
+	padding: 0 0 50px 400px;
+	text-shadow: -4px 2px 7px yellowgreen;
+}
+
+.block-7 {
+	padding: 0 0 0 100px;
+	max-width: 800px;
+	margin: 0px auto;
+	color: plum;
+}
+
+.block-8 {
+	text-decoration: line-through;
+	text-align: justify;
+	padding-bottom: 40px;
+}
+
+.block-9 {
+	word-spacing: 10px;
+	color: gold;
+	margin-bottom: 30px;
+}
+
+.block-10 {
+	width: 300px;
+	margin: 0 auto 35px;
+}
+
+.block-11 {
+	margin: 0 0 50px 0px;
+	max-height: 130px;
+	overflow: scroll;
+	width: 800px;
+	color: royalblue;
+}
+
+.block-12 {
+	font-family: "Lato";
+	font-weight: 900;
+	font-size: 35px;
+	margin-bottom: 70px;
 }
