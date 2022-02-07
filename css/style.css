@@ -218,5 +218,13 @@ h1.header {
 .text-5 {
 	font-size: 16px;
 	line-height: 1.6;
-	margin-top: 24px;
+	margin: 24px 0 60px 0;
+}
+.link {
+	font-size: 47px;
+	color: aqua;
+}
+.link-2 {
+	font-size: 25px;
+	color: #000;
 }
