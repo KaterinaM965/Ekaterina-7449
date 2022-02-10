@@ -1,0 +1,81 @@
+/*  */
+@import "null.css";
+@import url(https://fonts.googleapis.com/css?family=Montserrat:regular,500,900italic&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:regular,italic,700&display=swap);
+/* ================================================================ */
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+body {
+	font-family: "Montserrat", "serif";
+}
+.header {
+	text-align: center;
+}
+h1 {
+	margin-bottom: 15px;
+	font-family: "Ubuntu", "serif";
+	font-weight: 700;
+	font-size: 30px;
+	text-shadow: 1px 2px 8px #000;
+}
+span {
+	padding: 5px 15px;
+	margin-right: 10px;
+	border: 2px solid rgb(29, 42, 218);
+	border-radius: 50px 0 50px 0;
+	box-shadow: inset 0px 0px 10px 0px #000, 0 0 10px 0 red;
+}
+.title {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+h2 {
+	color: crimson;
+	font-weight: 500;
+	text-align: right;
+	margin-bottom: 10px;
+	text-decoration: underline rgb(39, 231, 135);
+}
+.interval {
+	word-spacing: 8px;
+	max-height: 50px;
+	overflow: scroll;
+	margin-bottom: 30px;
+}
+.border {
+	padding: 10px;
+	box-shadow: 5px 5px 10px 10px rgb(22, 59, 223), inset 0 0 7px 2px #000;
+	border-radius: 30px;
+	margin: 0 10px 30px 10px;
+}
+
+.img {
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	overflow: hidden;
+	box-shadow: -5px 5px 15px 15px rgba(0, 0, 0, 0.747);
+	margin-right: 10px;
+}
+.border-2 {
+	margin-bottom: 30px;
+	border: 1px solid #000;
+}
+.border-3 {
+	margin-bottom: 30px;
+	border: 10px dotted rgb(193, 27, 235);
+}
+.border-4 {
+	margin-bottom: 30px;
+	border: 5px dashed rgb(243, 132, 42);
+}
+.button-2 {
+	margin-bottom: 20px;
+}
+.button {
+	margin-right: 250px;
+}
