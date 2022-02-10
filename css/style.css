@@ -61,7 +61,19 @@ h2 {
 	box-shadow: -5px 5px 15px 15px rgba(0, 0, 0, 0.747);
 	margin-right: 10px;
 }
-.button-2 {
+.border-2 {
+	margin-bottom: 30px;
+	border: 1px solid #000;
+}
+.border-3 {
+	margin-bottom: 30px;
+	border: 10px dotted rgb(193, 27, 235);
+}
+.border-4 {
+	margin-bottom: 30px;
+	border: 5px dashed rgb(243, 132, 42);
+}
+.button-3 {
 	margin-bottom: 20px;
 }
 .button {
