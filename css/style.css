@@ -54,6 +54,7 @@ body {
 span {
 	padding: 5px 15px;
 	margin-right: 10px;
+	display: inline-block;
 	border: 2px solid rgb(29, 42, 218);
 	border-radius: 50px 0 50px 0;
 	box-shadow: inset 0px 0px 10px 0px #000, 0 0 10px 0 red;
@@ -113,6 +114,8 @@ span {
 .wrapper-2 {
 	font-family: "CircularStd", "serif";
 	font-size: 18px;
+	margin: 0 auto;
+	max-width: 1025px;
 }
 
 .block-1 {
