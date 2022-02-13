@@ -1,162 +1,159 @@
-/*  */
+/* &display=swap */
 @import "null.css";
-@import url(https://fonts.googleapis.com/css?family=Montserrat:regular,500,900italic&display=swap);
-@import url(https://fonts.googleapis.com/css?family=Ubuntu:regular,italic,700&display=swap);
-/* ================================================================ */
-
-@font-face {
-	font-family: "CircularStd";
-	src: url("../fonts/CircularStd-Book.woff2") format("woff2"), url("../fonts/CircularStd-Book.woff") format("woff");
-	font-weight: 400;
-	font-style: normal;
-	font-display: swap;
-}
-@font-face {
-	font-family: "CircularStd";
-	src: url("../fonts/CircularStd-Black.woff2") format("woff2"), url("../fonts/CircularStd-Black.woff") format("woff");
-	font-weight: 900;
-	font-style: normal;
-	font-display: swap;
-}
-@font-face {
-	font-family: "CircularStd";
-	src: url("../fonts/CircularStd-Medium.woff2") format("woff2"), url("../fonts/CircularStd-Medium.woff") format("woff");
-	font-weight: 500;
-	font-style: normal;
-	font-display: swap;
-}
-@font-face {
-	font-family: "CircularStd";
-	src: url("../fonts/CircularStd-Bold.woff2") format("woff2"), url("../fonts/CircularStd-Bold.woff") format("woff");
-	font-weight: 700;
-	font-style: normal;
-	font-display: swap;
-}
+@import url(https://fonts.googleapis.com/css?family=Lato:regular,700,900&display=swap);
 
 .wrapper {
 	min-height: 100%;
 	overflow: hidden;
+	font-family: "Lato", "serif";
+	font-size: 16px;
+	margin: 0 auto;
+	max-width: 810px;
 }
 
-body {
-	font-family: "Montserrat", "serif";
+h1 {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 1.3;
+	color: #1e212c;
+	margin-bottom: 26px;
 }
-.header {
-	text-align: center;
+.note-2 {
+	margin-bottom: 40px;
+	color: #787a80;
 }
-.cinema {
-	margin-bottom: 15px;
-	font-family: "Ubuntu", "serif";
-	font-weight: 700;
-	font-size: 30px;
-	text-shadow: 1px 2px 8px #000;
-}
-span {
-	padding: 5px 15px;
-	margin-right: 10px;
+.note {
 	display: inline-block;
-	border: 2px solid rgb(29, 42, 218);
-	border-radius: 50px 0 50px 0;
-	box-shadow: inset 0px 0px 10px 0px #000, 0 0 10px 0 red;
+	background: url("../img/note.svg") 0 0 / auto no-repeat;
+	padding: 0 25px 0 23px;
+}
+span.time {
+	display: inline-block;
+	background: url("../img/time.png") 0 0 / auto no-repeat;
+	padding: 0 0 0 23px;
+}
+.img {
+	margin-bottom: 60px;
+}
+h2 {
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 150%;
+	color: #1e212c;
+	margin-bottom: 24px;
+}
+
+.text {
+	font-size: 16px;
+	line-height: 160%;
+	color: #424551;
+	margin-bottom: 40px;
 }
 .title {
-	margin-bottom: 20px;
-	text-align: center;
-}
-
-.title-2 {
-	color: crimson;
-	font-weight: 500;
-	text-align: right;
-	margin-bottom: 10px;
-	text-decoration: underline rgb(39, 231, 135);
-}
-.interval {
-	word-spacing: 8px;
-	max-height: 50px;
-	overflow: scroll;
-	margin-bottom: 30px;
-}
-.border {
-	padding: 10px;
-	box-shadow: 5px 5px 10px 10px rgb(22, 59, 223), inset 0 0 7px 2px #000;
-	border-radius: 30px;
-	margin: 0 10px 30px 10px;
-}
-
-.img {
-	width: 300px;
-	height: 300px;
-	border-radius: 50%;
-	overflow: hidden;
-	box-shadow: -5px 5px 15px 15px rgba(0, 0, 0, 0.747);
-	margin-right: 10px;
-}
-.border-2 {
-	margin-bottom: 30px;
-	border: 1px solid #000;
-}
-.border-3 {
-	margin-bottom: 30px;
-	border: 10px dotted rgb(193, 27, 235);
-}
-.border-4 {
-	margin-bottom: 30px;
-	border: 5px dashed rgb(243, 132, 42);
-}
-.button-2 {
-	margin-bottom: 20px;
-}
-.button {
-	margin-right: 250px;
-}
-
-.wrapper-2 {
-	font-family: "CircularStd", "serif";
-	font-size: 18px;
-	margin: 0 auto;
-	max-width: 1025px;
-}
-
-.block-1 {
-	text-align: center;
-	margin-bottom: 224px;
-	line-height: 1.3;
-}
-.fit {
-	font-size: 65px;
-	font-weight: normal;
-	margin-bottom: 20px;
-	color: #313131;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 150%;
+	color: #1e212c;
+	margin-bottom: 48px;
+	background: url("../img/braces.svg") 0 5px / auto no-repeat;
+	padding: 0 0 0 58px;
 }
 .text-2 {
-	font-size: 20px;
-	color: #5f5f5f;
+	font-size: 16px;
+	line-height: 160%;
+	color: #424551;
+	margin-bottom: 24px;
 }
-
-.block-2 {
-	line-height: 1.3;
+.list {
+	font-size: 16px;
+	line-height: 160%;
+	color: #424551;
+	margin-bottom: 24px;
 }
-
-.fit-2 {
-	color: #313131;
-	font-weight: bold;
-	font-size: 34px;
-	margin-bottom: 20px;
+.item-list {
+	background: url("../img/list.svg") 0 5px / auto no-repeat;
+	padding: 0 0 0 32px;
+	margin-bottom: 4px;
 }
-.text {
-	line-height: 1.5;
-	color: #5f5f5f;
-	margin-bottom: 125px;
-}
-
 h3 {
 	font-weight: bold;
-	color: #313131;
-	margin-bottom: 5px;
+	text-transform: uppercase;
+	color: #1e212c;
+}
+.title-2 {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 1.3;
+	color: #1e212c;
+	margin-bottom: 40px;
+}
+
+.list-2 {
+	font-size: 16px;
+	line-height: 160%;
+	color: #424551;
+	margin-bottom: 48px;
+}
+.item-list-2 {
+	background: url("../img/list.svg") 0 5px / auto no-repeat;
+	padding: 0 0 0 31px;
+	margin-bottom: 12px;
+}
+.button {
+	width: 161px;
+	height: 44px;
+	background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
+	border-radius: 4px;
+	margin-bottom: 20px;
 }
 
 .text-3 {
-	color: #b8b8b8;
-	margin-bottom: 50px;
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 3.1;
+	letter-spacing: 0.5px;
+	padding: 0 0 0 32px;
 }
+/* ================================================================
+	/* Цвет фона */
+/* background-color: red;
+	/* Установка фонового изображения */
+/* background-image: url("../img/ava.png"); */
+/* Установка цветового градиента */
+/* background-image: linear-gradient(to bottom, rgba(236, 232, 157, 1) 0%, rgba(94, 83, 115, 1) 50%, rgba(24, 181, 164, 1) 100%); */
+/* Управление повторением изображения */
+/* background-repeat: no-repeat; */
+/* Позиция изображения */
+/* background-position: 0 0; */
+/* Размер изображения */
+/* background-size: auto; */
+/* Фиксация изображения */
+/* background-attachment: scroll; */
+
+/* Универсальное свойство */
+/* background: red url("../img/ava.png") 0 0 / cover no-repeat; */
+
+/* background: цвет картина или градиент позиция / размер повторение фиксация */
+
+/* .list { 
+}*/
+/* .item-list { 
+	background: url("../img/list.svg") 0 0 / auto no-repeat; 
+	padding: 0px 0px 0px 25px;
+	margin: 0px 0px 5px 0px;
+	/* text-indent: 25px;
+} */
+
+/* .sub-list {
+	margin: 10px 0;
+} */
+/* .item-sub-list {
+	background: url("../img/ava.png") 0 0 / 15px no-repeat;
+	padding: 0px 0px 0px 25px;
+	margin: 0px 0px 5px 0px;
+} */
+
+/* .some-block {
+	background: linear-gradient(180deg, rgba(131, 58, 180, 0) 0%, rgba(255, 255, 255, 1) 100%), url("../img/01.png") center / cover no-repeat;
+} */
