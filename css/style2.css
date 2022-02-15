@@ -101,5 +101,16 @@ h1 {
 }
 footer {
    text-align: center;
-   color: gold;
+   /* color: gold; */
+}
+.button-2 {
+   display: inline-block;
+   color: rgb(233, 137, 27);
+   background: radial-gradient(circle, rgba(63, 251, 107, 1) 0%, rgba(200, 215, 198, 0.927608543417367) 100%);
+   border-radius: 50px;
+   padding: 0px 52px;
+   min-height: 52px;
+   font-weight: bold;
+   letter-spacing: 0.5px;
+   line-height: 3.1;
 }
