@@ -97,7 +97,7 @@ h1 {
    margin-bottom: 20px;
 }
 .text-5 {
-   background: url("../img/octopus2.png") 0 0 / auto auto no-repeat fixed;
+   background: url("../img/octopus2.png") 0 0 / 100% auto no-repeat fixed;
    padding: 150px 0px 400px 0px;
    text-align: center;
    color: rgb(6, 27, 117);
