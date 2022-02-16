@@ -94,14 +94,19 @@ h1 {
    text-align: center;
    min-height: 450px;
    color: yellow;
-   margin-bottom: 20px;
+   margin-bottom: 50px;
 }
 .text-5 {
-   background: url("../img/octopus2.png") 0 0 / 100% auto no-repeat fixed;
-   padding: 150px 0px 400px 0px;
+   background: url(../img/octopus2.png) 300px 500px / 60% 60% no-repeat fixed;
+   padding: 150px 0px 400px 0;
    text-align: center;
    color: rgb(6, 27, 117);
-   margin-bottom: 30px;
+   margin-bottom: 100px;
+}
+.text-6 {
+   background: url("../img/turtle.2jpeg.png") no-repeat;
+   padding: 100px 0;
+   text-align: right;
 }
 footer {
    text-align: center;
