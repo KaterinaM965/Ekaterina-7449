@@ -3,6 +3,8 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:regular,700,900&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Taviraj:regular&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Play:regular&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Redressed:regular&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Merriweather:regular,italic&display=swap);
 /* ================================================================ */
 .wrapper {
 	min-height: 100%;
@@ -100,7 +102,8 @@ h1 {
 }
 
 .title,
-.title-2 {
+.title-2,
+.title-3 {
 	text-align: center;
 }
 .link {
@@ -140,8 +143,11 @@ h1 {
 	margin-bottom: 20px;
 }
 
+.link-2 {
+	margin-bottom: 40px;
+}
 .link-2 a {
-	background-color: rgb(55, 71, 214);
+	background-color: rgb(221, 39, 109);
 	margin: 0 30px 10px 0;
 	display: inline-block;
 	padding: 15px 15px;
@@ -154,7 +160,7 @@ h1 {
 }
 
 .link-2 a:active {
-	margin: 4px 0px 0px 0px;
+	margin: 4px 30px 0px 0px;
 	box-shadow: 0 0px 0 0 #000, inset 0 0px 5px 0 #000;
 }
 
@@ -182,9 +188,60 @@ h1 {
 .activ-7:active {
 	background-image: url("../img/unicorn2.png");
 }
-
 .link-2 a:active {
 	color: rgba(0, 0, 0, 0);
+}
+
+.block-3 {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.block-3 {
+	font-family: "Redressed", "serif";
+}
+.title-3 {
+	border: 1px solid rgb(55, 144, 216);
+	margin-bottom: 15px;
+}
+.font {
+	text-transform: uppercase;
+}
+
+.block-3 a:hover {
+	letter-spacing: 5px;
+	/* text-shadow: 1px 1px 1px rgb(25, 95, 199); */
+}
+
+.block-3 a:active {
+	color: rgb(73, 124, 168);
+}
+
+.block-3 a:visited {
+	color: gray;
+}
+
+.block-4 {
+	font-family: "Merriweather", "serif";
+	font-weight: italic;
+	text-align: center;
+}
+.title-4 {
+	margin-bottom: 15px;
+	display: inline-block;
+}
+
+.title-4::after {
+	content: "";
+	display: block;
+	height: 1px;
+	width: 30%;
+	margin: 0px 0 0 0;
+	background-color: rgb(190, 16, 123);
+}
+.example::first-line {
+	color: brown;
+	text-shadow: 1px 1px 3px rgb(2, 25, 59);
 }
 /* .bottom-3 {
 	background-color: rgb(220, 223, 69);
