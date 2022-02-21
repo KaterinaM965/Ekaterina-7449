@@ -77,7 +77,7 @@ h2 {
 	font-weight: 700;
 	line-height: 1.5;
 	color: #1e212c;
-	background: url("/img/braces.svg") 0 3px / auto no-repeat;
+	background: url("img/braces.svg") 0 3px / auto no-repeat;
 	padding: 0 0 0 57px;
 	margin-bottom: 48px;
 }
