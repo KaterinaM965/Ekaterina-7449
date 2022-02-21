@@ -1,252 +1,238 @@
 /* &display=swap */
 @import "null.css";
 @import url(https://fonts.googleapis.com/css?family=Lato:regular,700,900&display=swap);
-@import url(https://fonts.googleapis.com/css?family=Taviraj:regular&display=swap);
-@import url(https://fonts.googleapis.com/css?family=Play:regular&display=swap);
-@import url(https://fonts.googleapis.com/css?family=Redressed:regular&display=swap);
-@import url(https://fonts.googleapis.com/css?family=Merriweather:regular,italic&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Play:regular,700&display=swap);
 /* ================================================================ */
 .wrapper {
 	min-height: 100%;
 	overflow: hidden;
 }
-
+/* ================================================================ */
 .container {
-	max-width: 390px;
-	margin: auto;
 	font-family: "Lato", "serif";
 	font-size: 16px;
-}
-h1,
-h3 {
-	color: #1e212c;
-}
-h3 {
-	font-weight: bold;
-	line-height: 150%;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	margin-bottom: 8px;
+	max-width: 810px;
+	margin: 0 auto;
 }
 h1 {
-	font-weight: 900;
 	font-size: 46px;
+	font-weight: 900;
 	line-height: 1.3;
+	color: #1e212c;
+	margin-bottom: 26px;
+}
+.note {
+	color: #787a80;
 	margin-bottom: 40px;
 }
 
-.layout *:last-child {
-	margin-bottom: 40px;
-}
-.list li {
-	color: #424551;
-	line-height: 1.6;
-	padding: 0 0 0 30px;
-	margin: 0px 0px 12px 0px;
-}
-
-.list li:last-child {
-	margin-bottom: 0;
-}
-.list {
-	margin-bottom: 22px;
-}
-.list li::before {
-	content: "";
+.date {
 	display: inline-block;
-	width: 16px;
-	height: 16px;
-	background: url("../img/list.svg") 0 0px / 16px no-repeat;
-	margin: 0 16px -3px -30px;
+	margin-right: 24px;
+	background: url("../img/icon/date.svg") 0 0 / 16px no-repeat;
+	padding: 0 0 0 24px;
+}
+.time {
+	display: inline-block;
+	margin-right: 24px;
+	background: url("../img/icon/time.svg") 0 0 / 16px no-repeat;
+	padding: 0 0 0 24px;
+	margin-right: 410px;
+}
+.icons {
+	font-weight: 700;
+	color: #1e212c;
+	margin: 0 12px 0 0;
+}
+.note a:last-child {
+	margin-right: 0px;
+}
+.net {
+	margin: 0 12px 0 0;
 }
 
-.bottom {
+.header {
+	margin-bottom: 60px;
+}
+h2 {
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 1.5;
+	color: #1e212c;
+	margin-bottom: 24px;
+}
+.block {
+	color: #424551;
+}
+.text {
+	line-height: 160%;
+	margin-bottom: 40px;
+}
+.text-2 {
+	line-height: 160%;
+	margin-bottom: 48px;
+}
+.title {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 1.5;
+	color: #1e212c;
+	background: url("/img/icon/braces.svg") 0 3px / auto no-repeat;
+	padding: 0 0 0 57px;
+	margin-bottom: 48px;
+}
+.text-3,
+.list {
+	line-height: 160%;
+	margin-bottom: 24px;
+}
+
+.list li {
+	padding: 0px 0px 0px 32px;
+	min-height: 16px;
+	background: url("../img/check.svg") 0 5px / auto no-repeat;
+	margin-bottom: 4px;
+}
+.block li:last-child {
+	margin-right: 0px;
+}
+.text-4 {
+	line-height: 1.6;
+	margin-bottom: 63px;
+}
+.footer {
+	text-align: right;
+	margin-bottom: 30px;
+}
+.botton {
 	display: inline-block;
 	color: white;
 	background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
 	border-radius: 4px;
 	padding: 0px 32px;
-	text-align: center;
-	font-weight: bold;
-	font-size: 14px;
-	letter-spacing: 0.5px;
 	line-height: 3.1;
-	margin-right: 20px;
+	letter-spacing: 1px;
+	font-size: 20px;
 }
 
-.pseudo {
-	display: inline-block;
-	font-size: 36px;
-	color: #333333;
-	letter-spacing: 0.02em;
-	line-height: 1.1;
-	font-family: "Taviraj", "serif";
-	margin-bottom: 40px;
-}
+/* ================================================================ */
 
-.pseudo::after {
-	content: "";
-	display: block;
-	height: 1px;
-	width: 65px;
-	margin: 8px 0 0 0;
-	background-color: #000;
-}
-
-.hover-6 {
-	padding: 15px 15px;
-}
-.hover-6:hover {
-	background-image: url("../img/mouse2png.png");
-}
-
-/* ============================================================ */
-.wrapper-2 {
-	background-color: rgb(235, 202, 240);
-}
 .container-2 {
-	max-width: 500px;
+	max-width: 800px;
+	font-family: "Play", "serif";
+	font-size: 20px;
 	margin: 0 auto;
-}
-
-.title,
-.title-2,
-.title-3,
-.title-5 {
 	text-align: center;
 }
-.link {
+.description {
+	border: 10px dashed darkcyan;
+	padding: 10px;
+	margin-bottom: 15px;
+}
+
+.img {
+	display: inline-block;
 	margin-bottom: 30px;
 }
-.link a {
-	background-color: rgb(55, 214, 81);
-	margin: 0 30px 10px 0;
-	display: inline-block;
-	padding: 15px 15px;
-	border-radius: 20px;
+
+.game {
+	min-height: 600px;
 }
 
-.link a:hover {
-	color: rgba(0, 0, 0, 0);
-}
-
-.hover-1:hover {
-	background-image: url("../img/turnip2.png");
-}
-.hover-2:hover {
-	background-image: url("../img/minecraft2.png");
-}
-.hover-3:hover {
-	background-image: url("../img/cat2.png");
-}
-.hover-4:hover {
-	background-image: url("../img/flower2.png");
-}
-.hover:hover {
-	background-image: url("../img/mouse2png.png");
-}
-
-.title-2 {
-	font-size: 30px;
-	text-decoration: underline;
-	margin-bottom: 20px;
-}
-
-.link-2 {
-	margin-bottom: 40px;
-}
-.link-2 a {
-	background-color: rgb(221, 39, 109);
-	margin: 0 30px 10px 0;
-	display: inline-block;
-	padding: 15px 15px;
-	border-radius: 50%;
-	font-family: "Play", "serif";
-	color: #fff;
-	text-decoration: underline;
-	box-shadow: 0 5px 0 0 #000;
-}
-
-.link-2 a:active {
-	margin: 4px 30px 0px 0px;
-	box-shadow: 0 0px 0 0 #000, inset 0 0px 5px 0 #000;
-}
-
-.activ:active {
-	background-color: red;
-}
-.activ-1:active {
-	background-color: orange;
-}
-.activ-2:active {
-	background-color: yellow;
-}
-.activ-3:active {
+.line-1 {
+	width: 50px;
+	height: 50px;
 	background-color: green;
 }
-.activ-4:active {
-	background-color: rgb(55, 144, 216);
+.line-1:hover + .line-2,
+.line-2:hover {
+	visibility: visible;
 }
-.activ-5:active {
-	background-color: blue;
-}
-.activ-6:active {
-	background-color: purple;
-}
-.activ-7:active {
-	background-image: url("../img/unicorn2.png");
-}
-.link-2 a:active {
-	color: rgba(0, 0, 0, 0);
+.line-2 {
+	width: 100%;
+	height: 50px;
+	background-color: green;
+	margin: auto 0;
+	visibility: hidden;
 }
 
-.block-3 {
-	text-align: center;
-	margin-bottom: 50px;
+.line-2:hover + .line-3,
+.line-3:hover {
+	visibility: visible;
+}
+.line-3 {
+	width: 50px;
+	height: 100px;
+	margin: 0px 0px 0px auto;
+	background-color: green;
+	visibility: hidden;
+}
+.line-3:hover + .line-4,
+.line-4:hover {
+	visibility: visible;
+}
+.line-4 {
+	width: 53%;
+	height: 30px;
+	background-color: green;
+	margin: 0px 0px 0px auto;
+	visibility: hidden;
+}
+.line-4:hover + .line-5,
+.line-5:hover {
+	visibility: visible;
+}
+.line-5 {
+	width: 50px;
+	height: 100px;
+	margin: 0px auto;
+	background-color: green;
+	visibility: hidden;
+}
+.line-5:hover + .line-6,
+.line-6:hover {
+	visibility: visible;
+}
+.line-6 {
+	width: 53%;
+	height: 50px;
+	background-color: green;
+	margin: 0 auto 0 0;
+	visibility: hidden;
+}
+.line-6:hover + .line-7,
+.line-7:hover {
+	visibility: visible;
 }
 
-.block-3 {
-	font-family: "Redressed", "serif";
+.line-7 {
+	width: 30px;
+	height: 150px;
+	background-color: green;
+	margin: 0 auto 0 0;
+	visibility: hidden;
 }
-.title-3 {
-	border: 1px solid rgb(55, 144, 216);
-	margin-bottom: 15px;
-}
-.font {
-	text-transform: uppercase;
-}
-
-.block-3 a:hover {
-	letter-spacing: 5px;
+.line-7:hover + .line-8,
+.line-8:hover {
+	visibility: visible;
 }
 
-.block-3 a:active {
-	color: rgb(73, 124, 168);
+.line-8 {
+	width: 53%;
+	height: 50px;
+	background-color: green;
+	margin: 0 auto 0 0;
+	visibility: hidden;
 }
 
-.block-3 a:visited {
-	color: gray;
+.line-8:hover + .line-9,
+.line-9:hover {
+	visibility: visible;
 }
-
-.block-4 {
-	font-family: "Merriweather", "serif";
-	text-align: center;
-	margin-bottom: 30px;
-}
-.title-4 {
-	margin-bottom: 15px;
-	display: inline-block;
-}
-
-.title-4::after {
-	content: "";
-	display: block;
-	height: 1px;
-	width: 30%;
-	margin: 0px 0 0 0;
-	background-color: rgb(190, 16, 123);
-}
-.example::first-line {
-	color: brown;
-	text-shadow: 1px 1px 3px rgb(2, 25, 59);
+.line-9 {
+	width: 50px;
+	height: 100px;
+	margin: 0px auto;
+	background-color: green;
+	visibility: hidden;
 }
