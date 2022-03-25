@@ -1,238 +1,163 @@
-/* &display=swap */
+/* 
+&display=swap
+&subset=cyrillic-ext 
+*/
 @import "null.css";
-@import url(https://fonts.googleapis.com/css?family=Lato:regular,700,900&display=swap);
-@import url(https://fonts.googleapis.com/css?family=Play:regular,700&display=swap);
-/* ================================================================ */
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,regular,500,700,900&display=swap);
+
 .wrapper {
 	min-height: 100%;
 	overflow: hidden;
+	font-family: "Roboto", "serif";
+	font-size: 12px;
+	font-weight: regular;
+	margin: 0px auto;
+	max-width: 1440px;
 }
 /* ================================================================ */
-.container {
-	font-family: "Lato", "serif";
-	font-size: 16px;
-	max-width: 810px;
-	margin: 0 auto;
-}
-h1 {
-	font-size: 46px;
-	font-weight: 900;
-	line-height: 1.3;
-	color: #1e212c;
-	margin-bottom: 26px;
-}
-.note {
-	color: #787a80;
-	margin-bottom: 40px;
-}
 
-.date {
-	display: inline-block;
-	margin-right: 24px;
-	background: url("../img/icon/date.svg") 0 0 / 16px no-repeat;
-	padding: 0 0 0 24px;
-}
-.time {
-	display: inline-block;
-	margin-right: 24px;
-	background: url("../img/icon/time.svg") 0 0 / 16px no-repeat;
-	padding: 0 0 0 24px;
-	margin-right: 410px;
-}
-.icons {
-	font-weight: 700;
-	color: #1e212c;
-	margin: 0 12px 0 0;
-}
-.note a:last-child {
-	margin-right: 0px;
-}
-.net {
-	margin: 0 12px 0 0;
-}
+header {
+	background-image: url("../img/duotone.jpg");
 
-.header {
-	margin-bottom: 60px;
+	height: 800px;
 }
-h2 {
+.main {
+	background-color: #f5f5f5;
+	position: relative;
+}
+.who-we-are {
+	width: 1035px;
+	height: 844px;
+}
+.who-we-are__container {
+	margin: 0px auto;
+	max-width: 1024px;
+}
+.who-we-are__header {
+}
+.block-header {
+	background: #5d62b5;
+	border-radius: 40px;
+	position: absolute;
+	width: 1020px;
+	height: 700px;
+	left: 210px;
+	top: -80px;
+}
+.block-header__sub-title {
+	text-transform: uppercase;
 	font-weight: bold;
-	font-size: 20px;
-	line-height: 1.5;
-	color: #1e212c;
-	margin-bottom: 24px;
+	letter-spacing: 2.5px;
+	line-height: 24px;
+	color: #f5f5f5;
+	background: url("../img/chevron.svg") 0 0 / 24px no-repeat;
+	padding: 0 0 0 32px;
+	position: absolute;
+	left: 87px;
+	top: 100px;
 }
-.block {
-	color: #424551;
+.block-header__title {
+	width: 583px;
+	color: #ffffff;
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	position: absolute;
+	left: 87px;
+	top: 150px;
 }
-.text {
-	line-height: 160%;
-	margin-bottom: 40px;
-}
-.text-2 {
-	line-height: 160%;
-	margin-bottom: 48px;
-}
-.title {
-	font-size: 20px;
-	font-weight: 700;
-	line-height: 1.5;
-	color: #1e212c;
-	background: url("../img/braces.svg") 0 3px / auto no-repeat;
-	padding: 0 0 0 57px;
-	margin-bottom: 48px;
-}
-.text-3,
-.list {
-	line-height: 160%;
-	margin-bottom: 24px;
+.block-header__text {
+	max-width: 846px;
+	color: #ffffff;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	position: absolute;
+	left: 87px;
+	top: 270px;
 }
 
-.list li {
-	padding: 0px 0px 0px 32px;
-	min-height: 16px;
-	background: url("../img/check.svg") 0 5px / auto no-repeat;
-	margin-bottom: 4px;
+.who-we-are__image {
 }
-.block li:last-child {
-	margin-right: 0px;
+.image-box {
 }
-.text-4 {
-	line-height: 1.6;
-	margin-bottom: 63px;
+.image-box__image {
+	position: absolute;
+	top: 320px;
+	left: 277px;
 }
+.who-we-are__blob {
+}
+.blob-box {
+}
+.blob-box__image {
+	position: absolute;
+	top: 173px;
+	left: 195px;
+}
+.who-we-are__stylize {
+}
+.stylize-box {
+}
+.stylize-box__image {
+	position: absolute;
+	top: -189px;
+	right: 124px;
+}
+
 .footer {
-	text-align: right;
-	margin-bottom: 30px;
+	margin-top: 50px;
+	height: 608px;
+	background: #29c3be;
+	position: relative;
 }
-.botton {
-	display: inline-block;
-	color: white;
-	background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
-	border-radius: 4px;
-	padding: 0px 32px;
-	line-height: 3.1;
-	letter-spacing: 1px;
-	font-size: 20px;
+.our-impact {
 }
-
-/* ================================================================ */
-
-.container-2 {
-	max-width: 800px;
-	font-family: "Play", "serif";
-	font-size: 20px;
-	margin: 0 auto;
-	text-align: center;
+.our-impact__container {
+	/* margin: 0px auto;
+	max-width: 1024px; */
 }
-.description {
-	border: 10px dashed darkcyan;
-	padding: 10px;
-	margin-bottom: 15px;
+.our-impact__header {
 }
-
-.img {
-	display: inline-block;
-	margin-bottom: 30px;
+.block-header-our {
 }
-
-.game {
-	min-height: 600px;
+.block-header-our__sub-title {
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2.5px;
+	line-height: 24px;
+	color: #f5f5f5;
+	background: url("../img/chevron.svg") 0 0 / 24px no-repeat;
+	padding: 0 0 0 32px;
+	position: absolute;
+	left: 210px;
+	top: 112px;
 }
-
-.line-1 {
-	width: 50px;
-	height: 50px;
-	background-color: green;
+.block-header-our__title {
+	width: 411px;
+	color: #ffffff;
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	position: absolute;
+	left: 210px;
+	top: 160px;
 }
-.line-1:hover + .line-2,
-.line-2:hover {
-	visibility: visible;
+.our-impact__image {
 }
-.line-2 {
-	width: 100%;
-	height: 50px;
-	background-color: green;
-	margin: auto 0;
-	visibility: hidden;
+.image-box {
 }
-
-.line-2:hover + .line-3,
-.line-3:hover {
-	visibility: visible;
+.image-box__picture {
+	position: absolute;
+	right: 210px;
+	bottom: 373px;
 }
-.line-3 {
-	width: 50px;
-	height: 100px;
-	margin: 0px 0px 0px auto;
-	background-color: green;
-	visibility: hidden;
+.our-impact__blob {
 }
-.line-3:hover + .line-4,
-.line-4:hover {
-	visibility: visible;
+.blob-box {
 }
-.line-4 {
-	width: 53%;
-	height: 30px;
-	background-color: green;
-	margin: 0px 0px 0px auto;
-	visibility: hidden;
-}
-.line-4:hover + .line-5,
-.line-5:hover {
-	visibility: visible;
-}
-.line-5 {
-	width: 50px;
-	height: 100px;
-	margin: 0px auto;
-	background-color: green;
-	visibility: hidden;
-}
-.line-5:hover + .line-6,
-.line-6:hover {
-	visibility: visible;
-}
-.line-6 {
-	width: 53%;
-	height: 50px;
-	background-color: green;
-	margin: 0 auto 0 0;
-	visibility: hidden;
-}
-.line-6:hover + .line-7,
-.line-7:hover {
-	visibility: visible;
-}
-
-.line-7 {
-	width: 30px;
-	height: 150px;
-	background-color: green;
-	margin: 0 auto 0 0;
-	visibility: hidden;
-}
-.line-7:hover + .line-8,
-.line-8:hover {
-	visibility: visible;
-}
-
-.line-8 {
-	width: 53%;
-	height: 50px;
-	background-color: green;
-	margin: 0 auto 0 0;
-	visibility: hidden;
-}
-
-.line-8:hover + .line-9,
-.line-9:hover {
-	visibility: visible;
-}
-.line-9 {
-	width: 50px;
-	height: 100px;
-	margin: 0px auto;
-	background-color: green;
-	visibility: hidden;
+.blob-box__icon {
+	position: absolute;
+	right: 116px;
+	bottom: 300px;
 }
