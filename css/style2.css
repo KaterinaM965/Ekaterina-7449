@@ -1,123 +1,165 @@
-/* &display=swap */
-@import "null.css";
-@import url(https://fonts.googleapis.com/css?family=Lato:regular,700,900&display=swap);
+/* 
+&display=swap
+&subset=cyrillic-ext 
+*/
 
-.wrapper {
-   background: url("../img/ava.jpg") 0 0 / 100% 100% no-repeat;
-   font-size: 20px;
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+/* body {
+	line-height: 1;
+	color: #000;
+	font-family:"";
+	overflow-x: hidden;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	background-color: #333;
+} */
+/* .wrapper {
+	min-height: 100%;
+	padding: 30px;
+} */
+/* ------------------------------ */
+
+/* Селекторы атрибутов */
+
+/* Конкретый поиск */
+[href="https://google.com"]
+{
+	/* color: red; */
+}
+/* Поиск окончания */
+[href$=".com"] {
+	/* color: red; */
+}
+/* Поиск начала */
+[href^="http"] {
+	/* color: red; */
+}
+/* Поиск слова из указанных через пробелы */
+[class~="body-about"] {
+	/* color: red; */
+}
+/* Поиск слова из указанных через дефис */
+[class|="body-about"] {
+	/* color: red; */
+}
+/* Поиск по любому вхождению */
+[href*=":"] {
+	/* color: red; */
+}
+/* Ограничивающий контейнер */
+[class*="__container"] {
+	max-width: 800px;
+	margin: 0px auto;
 }
 
-.contener {
-   max-width: 1000px;
-   margin: 0 auto;
+/* ------------------------------ */
+
+.block {
+	/* width: 100%; */
+	width: 200px;
+	height: 200px;
+	background-color: rgba(255, 255, 255, 0.1);
+	position: relative;
+
+	/* Установка глубины и смена точки начала координат. */
+	/* 
+	perspective: 400px;
+	perspective-origin: 0 0;
+	 */
+
+	/* Определяет, как дочерние элементы должны 
+	 отображаться в 3D-пространстве. */
+	/* transform-style: flat;
+		transform-style: preserve-3d;
+	*/
 }
 
-h1 {
-   font-weight: 900;
-   font-size: 46px;
-   line-height: 1.3;
-   color: #ffffffc7;
-   text-align: center;
-   text-shadow: 1px 1px 1px #000;
-   margin-bottom: 25px;
-}
-.button {
-   text-align: center;
-}
-.button-1 {
-   display: inline-block;
-   border-bottom: 5px dotted pink;
-   margin: 0 30px 20px 0;
-   color: rgb(25, 117, 223);
+/* 
+С помощью 2D и 3D трансформации мы сможем сдвигать, 
+поворачивать, масштабировать элементы и делать многое другое!
+*/
+
+.block__item {
+	background-color: #7a956b;
+	width: 200px;
+	height: 200px;
+	line-height: 200px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+
+	/* 
+	Сдвигает элемент на новое место, перемещая относительно 
+	изначального положения объекта вправо и вниз, 
+	используя координаты X и Y. 
+	Записывается следующим образом translate (x,y).
+	*/
+	/* transform: translate(0%, 0%); */
+
+	/*
+	Масштабирует элементы, делая их больше или меньше.
+	*/
+	/* transform: scale(1, 0.5); */
+
+	/* Поворачивает элементы. */
+	/* transform: rotate(45deg); */
+
+	/* Деформирует (наклоняет) элементы. */
+	/* transform: skew(-5deg, 60deg); */
+
+	/* Позволяет объединить несколько функций 2D-трансформаций в одной. */
+	/* transform: translate(10%, 10%) scale(0.5) rotate(45deg); */
+
+	/* 
+	Позволяет сместить центр трансформации, относительно которого 
+	происходит изменение положения/размера/формы элемента.
+	*/
+	/* transform-origin: 0px 0px; */
+
+	/* Отображение обратной стороны объекта. */
+	/* backface-visibility: hidden; */
 }
 
-.link {
-   margin-bottom: 28px;
-}
-.item-link {
-   background: url("../img/drop2.png") 0 6px / auto no-repeat;
-   padding-left: 30px;
-   color: rgba(7, 53, 22, 0.925);
-   text-decoration: underline rgba(255, 217, 0, 0.623);
-   line-height: 1.3;
+.block:hover .block__item {
 }
 
-.text {
-   color: #fff;
-   text-align: center;
-   font-size: 16px;
-   text-shadow: 1px 1px 1px #000;
-   border: 1px solid #fff;
-   padding: 150px 10px 10px 10px;
-   background: url("../img/water3.jpg") no-repeat;
-   border-radius: 20px;
-   box-shadow: 5px 3px 20px 10px rgb(245, 244, 244);
-   max-width: 150px;
-
-   margin-bottom: 30px;
-}
-
-.text-2 {
-   color: purple;
-   max-width: 400px;
-   border: 1px solid rgb(47, 110, 204);
-   padding: 40px;
-   text-align: center;
-   background: linear-gradient(
-      162deg,
-      rgba(30, 36, 0, 0.7302325581395348) 0%,
-      rgba(226, 240, 16, 0.6627906976744187) 21%,
-      rgba(0, 212, 255, 0.37441860465116283) 62%
-   );
-   box-shadow: inset 5px 3px 20px 10px rgb(245, 244, 244);
-   border-radius: 50%;
-   margin: auto;
-   margin-bottom: 30px;
-}
-
-.text-3 {
-   background: url("../img/akula.jpg") 0 0 /100% auto no-repeat fixed;
-   padding: 150px 150px 300px 150px;
-   text-align: center;
-   text-shadow: 1px 1px 3px #fff;
-   box-shadow: 5px 3px 20px 10px rgb(74, 208, 231);
-   /* min-height: 300px; */
-   /* max-width: 600px; */
-   border-radius: 20px;
-   margin: 0px 0px 50px auto;
-}
-.block-4 {
-   margin: 0 auto;
-}
-.text-4 {
-   background: url("../img/dori222.png") left repeat-y, url("../img/fish2.png") right repeat-y;
-   text-align: center;
-   min-height: 450px;
-   color: yellow;
-   margin-bottom: 50px;
-}
-.text-5 {
-   background: url(../img/octopus2.png) 300px 500px / auto 60% no-repeat fixed;
-   padding: 150px 0px 400px 0;
-   text-align: center;
-   color: rgb(6, 27, 117);
-   margin-bottom: 100px;
-}
-.text-6 {
-   background: url("../img/turtle.2jpeg.png") no-repeat;
-   padding: 100px 0;
-   text-align: right;
-}
-footer {
-   text-align: center;
-}
-.button-2 {
-   display: inline-block;
-   color: rgb(233, 137, 27);
-   background: radial-gradient(circle, rgba(63, 251, 107, 1) 0%, rgba(200, 215, 198, 0.927608543417367) 100%);
-   border-radius: 50px;
-   padding: 9px 52px;
-   font-weight: bold;
-   letter-spacing: 0.5px;
-   line-height: 3.1;
+[data-container] {
+	margin: 0px auto;
+	max-width: 300px;
 }
