@@ -1,0 +1,285 @@
+/* 
+&display=swap
+&subset=cyrillic-ext 
+*/
+@import "null.css";
+@import url(https://fonts.googleapis.com/css?family=Roboto:regular,700,900&display=swap);
+/* ================================================================ */
+
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+	font-family: "Roboto" ,"serif";
+	background: #F5F5F5;
+}
+
+.header {
+	margin-bottom: 100px;
+}
+h1{
+	font-weight: 900;
+	font-size: 36px;
+	color: #5D62B5;
+	text-align: center;
+}
+.main {
+}
+.our-impact {
+	background-color: #29C3BE;
+	margin-bottom: 80px;
+}
+
+.our-impact__container {
+	max-width: 1020px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 1;
+}
+.our-impact__container::before{
+	content: "";
+	background: url("../img/blob_2.svg") 0 0 no-repeat;
+   width: 695px;
+   height: 308px;
+   position: absolute;
+   top: 0px;
+   right: -76px;
+	z-index: -1;
+}
+.our-impact__row {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 79px;
+}
+.our-impact__body {
+	padding: 112px 0 0 0;
+	color: #ffffff;
+	flex: 0 1 411px;
+}
+.our-impact__subtitle {
+	font-weight: bold;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 2.5px;
+	line-height: 24px;
+	background: url("../img/chevron.svg") 0 0 / 24px no-repeat;
+	padding: 0 0 32px 32px;	
+}
+.our-impact__title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+}
+
+.our-impact__image {
+	margin-top: -80px;
+}
+.our-impact__column {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 112px;
+}
+.our-impact__item {
+	display: flex;
+}
+.item__body {
+	padding-left: 12px;
+}
+.item__number {
+	font-weight: 900;
+font-size: 36px;
+line-height: 42px;
+color: #FFFFFF;
+padding: 0 0 3px 0;
+}
+.item__text {
+	font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.15px;
+color: #5D62B5;
+}
+
+.our-promise__container {
+	max-width: 1020px;
+		margin: 0 auto;
+}
+.our-promise__subtitle {
+	font-weight: 700;
+font-size: 12px;
+line-height: 24px;
+letter-spacing: 2.5px;
+text-transform: uppercase;
+color: #5D62B5;
+background: url("../img/chevron1.svg") 0 0 / 24px no-repeat;
+	padding: 0 0 33px 32px;	
+}
+.our-promise__title {
+	font-weight: 900;
+font-size: 36px;
+line-height: 42px;
+color: #000000;
+padding-bottom: 68px;
+}
+.our-promise__row {
+	display: flex;
+	padding-bottom: 100px;
+	column-gap: 24px ;
+}
+.our-promise__column {
+	display: flex;
+	flex: 1 1 33.333%;
+}
+.column {
+
+}
+.column__image {
+padding-right: 23px;
+flex: 0 0 63px;
+}
+
+.column__info {
+	font-weight: 900;
+font-size: 19px;
+line-height: 26px;
+color: #F2726F;
+padding-bottom: 20px;
+}
+.column__text {
+	font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.15px;
+color: #4B4B4B;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.main {
+}
+.doggie {
+	margin-top: 100px;
+}
+.doggie__container {
+		font-family: "Roboto", "serif";
+		background:#29C3BE ;
+		font-size: 16px;
+		margin: 0px auto;
+		max-width: 1440px;
+		position: relative;
+}
+.doggie__header {
+}
+.block-header {
+}
+.block-header__sub-title {
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2.5px;
+	line-height: 24px;
+	color: #ffffff;
+	background: url("../img/chevron.svg") 0 0 / 24px no-repeat;
+	padding: 0 0 0 32px;
+	position: absolute;
+	left: 210px;
+	top: 112px;
+}
+.block-header__title {
+	width: 411px;
+	color: #ffffff;
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	position: absolute;
+	left: 210px;
+	top: 160px;
+}
+.block-header__icon {
+	position: absolute;
+	top: 0px;
+	right: 142px;
+}
+
+.doggie__image {
+}
+.image-box {
+}
+.image-box__image {
+	position: absolute;
+	top: -80px;
+	right: 210px;
+}
+.doggie__items {
+	max-width: 1020px;
+   margin: 0 auto;
+	display: flex;
+   justify-content: space-between;
+ display: flex;
+flex-direction:row; */
+   /* flex-wrap: wrap; */
+/* display:flex; */
+/* justify-content:space-evenly; 
+}*/
+/*.doggie__item {
+}
+.item-doggie {
+	display: flex;
+	flex-direction:column;
+} */
+/* .item-doggie__image {
+}
+.item-doggie__number {
+	font-weight: 900;
+font-size: 36px;
+line-height: 42px;
+color: #FFFFFF; */
+/* display: flex; */
+/* flex: 0 0 400px; */
+/* }
+.item-doggie__text {
+	font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+color: #5D62B5;
+letter-spacing: 0.15px;
+}
+.footer {
+} */
