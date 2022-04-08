@@ -108,6 +108,7 @@ color: #5D62B5;
 	max-width: 1020px;
 		margin: 0 auto;
 			flex-wrap: wrap;
+
 }
 .our-promis__header {
 	margin-bottom: 68px;
@@ -132,21 +133,17 @@ color: #000000;
 }
 .our-promise__row {
 	display: flex;
-	align-items: flex-start;
-	/* padding-bottom: 100px; */
-	column-gap: 24px ;
-
+	margin: 0px -12px;
 }
 .our-promise__column {
-	display: flex;
-	flex: 1 1 33.333%;
+	padding: 0px 12px;
+		flex: 0 0 33.333%;
 }
 .column {
-
+	display: flex;
 }
 .column__image {
-	/* padding-right: 23px; */
-flex: 0 0 63px;
+flex: 1 0 63px;
 }
 .column__body {
 	padding-left: 23px;
