@@ -109,6 +109,9 @@ color: #5D62B5;
 		margin: 0 auto;
 			flex-wrap: wrap;
 }
+.our-promis__header {
+	margin-bottom: 68px;
+}
 .our-promise__subtitle {
 	font-weight: 700;
 font-size: 12px;
@@ -125,7 +128,7 @@ background: url("../img/chevron1.svg") 0 0 / 24px no-repeat;
 font-size: 36px;
 line-height: 42px;
 color: #000000;
-margin-bottom: 68px;
+
 }
 .our-promise__row {
 	display: flex;
