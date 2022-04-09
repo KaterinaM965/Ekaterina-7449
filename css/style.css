@@ -14,29 +14,89 @@
 }
 
 .header {
-	margin-bottom: 100px;
+	margin-bottom: 80px;
 }
-h1{
-	font-weight: 900;
+h1 {
 	font-size: 36px;
 	color: #5D62B5;
+	font-weight: 900;
+	text-shadow: 1px 3px 4px #000000;
 	text-align: center;
+	letter-spacing: 4px;
 }
-.main {
+
+.promise {
+	padding-bottom: 150px;
 }
-.our-impact {
+.promise__container {
+	max-width: 1020px;
+	margin: 0 auto;
+}
+.promise__header {
+	margin-bottom: 68px;
+}
+
+.header-promise__subtitle {
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 2;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	color: #5D62B5;
+	background: url("../img/chevron1.svg") 0 0 / 24px no-repeat;
+	padding: 0 0 0 32px;
+	margin-bottom: 33px;
+}
+.header-promise__title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 1.16;
+	color: #000000;
+}
+.promise__items {
+	display: flex;
+	margin: 0 -12px;
+	flex-wrap: wrap;
+}
+
+.item-promise {
+	display: flex;
+	align-items: flex-start;
+	flex: 0 0 33.333%;
+	padding: 0 12px;
+}
+.item-promise__icon {
+	flex: 0 0 63px;
+}
+.item-promise__body {
+	padding: 0 0 0 23px;
+}
+.item-promise__title {
+	font-weight: 900;
+	font-size: 19px;
+	line-height: 1.36;
+	color: #F2726F;
+	padding-bottom: 20px;
+}
+.item-promise__text {
+	font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.15px;
+color: #4B4B4B;
+}
+
+.impact {
 	background-color: #29C3BE;
 	padding-bottom: 150px;
 }
-
-.our-impact__container {
+.impact__container {
 	max-width: 1020px;
 	margin: 0 auto;
 	position: relative;
 	z-index: 1;
-	flex-wrap: wrap;
 }
-.our-impact__container::before{
+.impact__container::before{
 	content: "";
 	background: url("../img/blob_2.svg") 0 0 no-repeat;
    width: 695px;
@@ -46,18 +106,19 @@ h1{
    right: -76px;
 	z-index: -1;
 }
-.our-impact__row {
+.impact__row {
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 79px;
 
 }
-.our-impact__body {
-	padding: 112px 0 0 0;
+.impact__header {
+	padding: 106px 0 0 0;
 	color: #ffffff;
 	flex: 0 1 411px;
 }
-.our-impact__subtitle {
+
+.header-impact__subtitle {
 	font-weight: bold;
 	font-size: 12px;
 	text-transform: uppercase;
@@ -67,23 +128,24 @@ h1{
 	padding: 0 0 0 32px;	
 	margin-bottom: 32px;
 }
-.our-impact__title {
+.header-impact__title {
 	font-weight: 900;
 	font-size: 36px;
 	line-height: 42px;
 }
 
-.our-impact__image {
+.impact__image {
 	margin-top: -80px;
 }
-.our-impact__column {
+.impact__column {
 	display: flex;
-	justify-content: space-between;
-	/* padding-bottom: 112px; */
+	flex-wrap: wrap;
 }
-.our-impact__item {
+.impact__item {
 	display: flex;
+		flex: 0 0 25%;
 }
+
 .item__body {
 	padding-left: 12px;
 }
@@ -100,65 +162,4 @@ font-size: 16px;
 line-height: 24px;
 letter-spacing: 0.15px;
 color: #5D62B5;
-}
-.our-promise {
-	padding: 80px 0  100px 0;
-}
-.our-promise__container {
-	max-width: 1020px;
-		margin: 0 auto;
-			flex-wrap: wrap;
-
-}
-.our-promis__header {
-	margin-bottom: 68px;
-}
-.our-promise__subtitle {
-	font-weight: 700;
-font-size: 12px;
-line-height: 24px;
-letter-spacing: 2.5px;
-text-transform: uppercase;
-color: #5D62B5;
-background: url("../img/chevron1.svg") 0 0 / 24px no-repeat;
-	padding: 0 0 0px 32px;
-	margin-bottom: 33PX;	
-}
-.our-promise__title {
-	font-weight: 900;
-font-size: 36px;
-line-height: 42px;
-color: #000000;
-
-}
-.our-promise__row {
-	display: flex;
-	margin: 0px -12px;
-}
-.our-promise__column {
-	padding: 0px 12px;
-		flex: 0 0 33.333%;
-}
-.column {
-	display: flex;
-}
-.column__image {
-flex: 1 0 63px;
-}
-.column__body {
-	padding-left: 23px;
-}
-.column__info {
-	font-weight: 900;
-font-size: 19px;
-line-height: 26px;
-color: #F2726F;
-padding-bottom: 20px;
-}
-.column__text {
-	font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-letter-spacing: 0.15px;
-color: #4B4B4B;
 }
