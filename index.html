@@ -1,131 +1,181 @@
 <!DOCTYPE html>
 <html lang="ru">
-	<head>
-		<meta charset="UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<link rel="stylesheet" href="css/style.css">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Lesson 16</title>
-	</head>
-	<body>
-		<div class="wrapper">
-			<header class="header"></header>
-			<main class="main">
-				<!-- action - получатель данных формы -->
-				<!-- 
-					method - метод передачи данных 
-					get - значение по умолчанию, 
-					данные передаются в адресной строке
-					post - данные передаются скрытно
-					enctype - тип данных. 
-					(для передачи фалов, указываем multipart/form-data)
-				-->
-				<form class="main__form form" action="#">
-					<div class="form__line">
-						<!-- <label for="username" class="form__label">Введите имя</label> -->
-						<input id="username" placeholder="Введите имя" autocomplete="off" type="text" name="username" class="form__input">
-					</div>
-					<div class="form__line">
-						<div class="checkbox">
-							<input id="car" autocomplete="off" type="checkbox" name="car" class="checkbox__input">
-							<label for="car" class="checkbox__label">Автомобиль?</label>
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lesson 15</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header"><a href="index1.html" class="header__button">Урок 16. Формы</a></header>
+		<main class="main">
+			<div class="why-createx">
+				<div class="why-createx__container">
+					<img src="img/why-createx/work.jpg" alt="Учёба" class="why-createx__image">
+					<div class="why-createx__body">
+						<div class="why-createx__header titles">
+							<div class="titles__subtitle">Who we are</div>
+							<div class="titles__title">Why Createx?</div>
 						</div>
-					</div>
-					<div class="form__line">
-						<div class="switcher">
-							<input id="switcher" autocomplete="off" type="checkbox" name="switcher" class="switcher__input">
-							<label for="switcher" class="switcher__label"></label>
+						<div class="why-createx__list list">
+							<ul class="list__items ">
+								<li class="list__item">A fermentum in morbi pretium aliquam adipiscing donec tempus.</li>
+								<li class="list__item">Vulputate placerat amet pulvinar lorem nisl.</li>
+								<li class="list__item">Consequat feugiat habitant gravida quisque elit bibendum id adipiscing
+									sed.</li>
+								<li class="list__item">Etiam duis lobortis in fames ultrices commodo nibh.</li>
+								<li class="list__item">Tincidunt sagittis neque sem ac eget.</li>
+								<li class="list__item">Ultricies amet justo et eget quisque purus vulputate dapibus tortor.</li>
+							</ul>
 						</div>
+						<a href="" class="why-createx__button">More about us</a>
 					</div>
-					<div class="form__line">
-						<div class="radiobuttons">
-							<div class="radiobuttons__item">
-								<input id="color_1" autocomplete="off" type="radio" name="color" class="radiobuttons__input">
-								<label for="color_1" class="radiobuttons__label">Зеленый</label>
+				</div>
+			</div>
+			<div class="courses">
+				<div class="courses__container">
+					<div class="courses__header titles">
+						<div class="titles__subtitle">Ready to ?</div>
+						<div class="titles__title">Featured Courses</div>
+					</div>
+					<a href="" class="courses__button white">More about us</a>
+					<div class="courses__items">
+						<div class="courses__item  item-courses">
+							<img src="img/courses/1.jpg" alt="Jerome" class="item-courses__icon">
+							<div class="item-courses__body">
+								<div class="item-courses__subtitle green">Marketing</div>
+								<div class="item-courses__title">The Ultimate Google Ads Training Course</div>
+								<span class="item-courses__number">$100</span>
+								<span class="item-courses__text">| by Jerome Bell</span>
 							</div>
-							<div class="radiobuttons__item">
-								<input id="color_2" autocomplete="off" type="radio" name="color" class="radiobuttons__input">
-								<label for="color_2" class="radiobuttons__label">Красный</label>
+						</div>
+						<div class="courses__item  item-courses">
+							<img src="img/courses/2.jpg" alt="Marvin" class="item-courses__icon">
+							<div class="item-courses__body">
+								<div class="item-courses__subtitle blue">Management</div>
+								<div class="item-courses__title">Prduct Management Fundamentals</div>
+								<span class="item-courses__number">$480</span>
+								<span class="item-courses__text">| by Marvin McKinney</span>
+							</div>
+						</div>
+						<div class="courses__item  item-courses">
+							<img src="img/courses/3.jpg" alt="Alexander" class="item-courses__icon">
+							<div class="item-courses__body">
+								<div class="item-courses__subtitle orange">HR & Recruting</div>
+								<div class="item-courses__title">HR Management and Analytics</div>
+								<span class="item-courses__number">$200</span>
+								<span class="item-courses__text">| by Leslie Alexander Li</span>
+							</div>
+						</div>
+						<div class="courses__item  item-courses">
+							<img src="img/courses/4.jpg" alt="Kristin" class="item-courses__icon">
+							<div class="item-courses__body">
+								<div class="item-courses__subtitle green">Marketing</div>
+								<div class="item-courses__title">Brand Management & PR Communications</div>
+								<span class="item-courses__number">$530</span>
+								<span class="item-courses__text">| by Kristin Watson</span>
+							</div>
+						</div>
+						<div class="courses__item  item-courses">
+							<img src="img/courses/5.jpg" alt="Dianne" class="item-courses__icon">
+							<div class="item-courses__body">
+								<div class="item-courses__subtitle blue">Management</div>
+								<div class="item-courses__title">Business Development Management</div>
+								<span class="item-courses__number">$400</span>
+								<span class="item-courses__text">| by Dianne Russell</span>
+							</div>
+						</div>
+						<div class="courses__item  item-courses">
+							<img src="img/courses/6.jpg" alt="Guy" class="item-courses__icon">
+							<div class="item-courses__body">
+								<div class="item-courses__subtitle red">Design</div>
+								<div class="item-courses__title">Graphic Design Basic</div>
+								<span class="item-courses__number">$500</span>
+								<span class="item-courses__text">| by Guy Hawkins</span>
 							</div>
 						</div>
 					</div>
-					<div class="form__line">
-						<div class="file">
-							<input id="file_1" class="file__input" type="file">
-							<label for="file_1" class="file__label">Выбрать файл</label>
+				</div>
+			</div>
+			<div class="benefits">
+				<div class="benefits__container">
+					<div class="benefits__header titles center">
+						<div class="titles__subtitle">Our benefits</div>
+						<div class="titles__title">That’s how we do it</div>
+					</div>
+					<ul class="benefits__list">
+						<li class="item-list star">Experienced Tutors</li>
+						<li class="item-list like">Feedback & Support</li>
+						<li class="item-list time">24/7 Online Library</li>
+						<li class="item-list chat">Community</li>
+					</ul>
+					<div class="benefits__body">
+						<div class="benefits__content">
+							<div class="benefits__header title">
+								<div class="title__subtext">OUR IMPACT</div>
+								<div class="title__text ">NUrna nisi, arcu cras nunc. Aenean quam est lobortis mi non fames
+									dictum suspendisse. Morbi mauris cras massa ut dolor quis sociis mollis augue. Nunc, sodales
+									tortor sit diam mi amet massa. Fermentum diam diam sociis vestibulum. Nulla nisl accumsan, id
+									dignissim massa ut amet. Amet enim, nisi tempus vehicula.</div>
+							</div>
+						</div>
+						<div class="benefits__image">
+							<img src="img/benefits/illustration.svg" alt="Иллюстрация">
 						</div>
 					</div>
-					<div class="form__line">
-						<select name="select" class="form__select">
-							<option value="1" selected>Пункт №1</option>
-							<option value="2">Пункт №2</option>
-							<option value="3">Пункт №3</option>
-							<option value="4">Пункт №4</option>
-						</select>
+				</div>
+			</div>
+			<div class="events">
+				<div class="events__container">
+					<div class="courses__header titles">
+						<div class="titles__subtitle">Our Events</div>
+						<div class="titles__title">Lectures & workshops</div>
 					</div>
-					<div class="form__line">
-						<textarea autocomplete="off" name="text" class="form__textarea"></textarea>
-					</div>
-					<button type="submit" class="form__button">Отправить</button>
-				</form>
+					<div class="events__items">
+						<div class="events__item item-events">
 
+							<div class="item-events__date">05</div>
+							<div class="event-item__body">
+								<div class="item-events__month">August </div>
+								<div class="item-events__time">11:00 – 14:00</div>
+							</div>
+							<div class="item-events__title">Formation of the organizational structure of the company in the
+								face of uncertainty.</div>
+							<div class="item-events__text">Onine master-class</div>
+							<a href="" class="item-events__button button">View more</a>
+						</div>
+						<div class="events__item item-events">
+							<div class="item-events__date">24</div>
+							<div class="item-events__month">July</div>
+							<div class="item-events__time">11:00 – 12:30</div>
+							<div class="item-events__title">Building a customer service department. Best Practices.</div>
+							<div class="item-events__text">Onine lecture</div>
+							<a href="" class="item-events__button button">View more</a>
+						</div>
+						<div class="events__item item-events">
+							<div class="item-events__date">16</div>
+							<div class="item-events__month">July</div>
+							<div class="item-events__time">10:00 – 13:00</div>
+							<div class="item-events__title">How to apply methods of speculative design in practice.
+								Worldbuilding prototyping.</div>
+							<div class="item-events__text">Onine workshop</div>
+							<a href="" class="item-events__button button">View more</a>
+						</div>
+						<div class="events__text">
+							<p>Do you want more?</p>
+							<a href="" class="button">Explore all events</a>
+						</div>
+					</div>
+				</div>
+			</div>
 
+		</main>
+		<footer class="footer">Я подвал</footer>
+	</div>
+</body>
 
-				<form action="#">
-					<!-- Ввод данных -->
-					<label for="input_01">Я подпись к полю</label>
-					<input tabindex="-1" id="input_01" autocomplete="off" required placeholder="Строка" name="string" value="" type="text">
-					<!-- Ввод данных - число -->
-					<input autocomplete="off" required placeholder="Число" name="number" value="" type="number">
-					<!-- Ввод данных - телефон -->
-					<input tabindex="3" autocomplete="off" required placeholder="Номер телефона" name="phone" value="" type="tel">
-					<!-- Ввод данных - почта -->
-					<input autocomplete="off" required placeholder="Почта" name="email" value="" type="email">
-					<!-- Ввод данных - календарь -->
-					<input autocomplete="off" required placeholder="Календарь" name="datetime" value="" type="datetime-local">
-					<div>
-						<!-- Ввод данных - выбор И-множественный выбор (чекбокс) -->
-						<input checked autocomplete="off" required name="check" value="" type="checkbox"> Есть авто?
-					</div>
-					<div>
-						<!-- Ввод данных - выбор ИЛИ-единичный выбор (радиокнопка) -->
-						<input checked autocomplete="off" required name="gender" value="m" type="radio"> М
-						<input autocomplete="off" required name="gender" value="f" type="radio"> Ж
-					</div>
-					<div>
-						<!-- Ввод данных - выбор ИЛИ-единичный выбор (радиокнопка) -->
-						<input checked autocomplete="off" required name="color" value="red" type="radio"> red
-						<input autocomplete="off" required name="color" value="blue" type="radio"> blue
-					</div>
-					<div>
-						<!-- Ввод данных - прикрепить файл -->
-						<input autocomplete="off" accept=".jpg, .png" multiple required name="file" type="file">
-					</div>
-					<div>
-						<!-- Ввод данных - пароль -->
-						<input autocomplete="off" required placeholder="Пароль" name="pass" value="" type="password">
-					</div>
-					<div>
-						<!-- Ввод данных - ползунок -->
-						<input autocomplete="off" name="range" value="" type="range">
-					</div>
-					<!-- Ввод данных - многострочный -->
-					<textarea tabindex="4" name="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere reiciendis maxime, tempora quidem illo et porro nostrum perferendis, optio earum commodi non consequatur impedit unde quasi soluta. Ut, fugiat laboriosam.</textarea>
-					<div>
-						<!-- Ввод данных - выпадающий список -->
-						<select name="select">
-							<option value="1">Пункт №1</option>
-							<option value="2">Пункт №2</option>
-							<option value="3">Пункт №3</option>
-							<option value="4">Пункт №4</option>
-						</select>
-					</div>
-					<div>
-						<button type="submit">Я кнопка</button>
-					</div>
-				</form>
-			</main>
-			<footer class="footer"></footer>
-		</div>
-	</body>
 </html>
