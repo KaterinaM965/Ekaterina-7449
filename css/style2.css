@@ -158,6 +158,25 @@ padding: 10px 37px 10px 0;
 	margin-right: 22px;
 }
 
+/* ============================ */
+
+.header__content {
+	padding: 126px 447px 212px 0px;
+}
+.header__title {
+	font-weight: 900;
+font-size: 56px;
+line-height: 1;
+color: #FFFFFF;
+margin-bottom: 48px;
+}
+.header__button {
+
+}
+.button {
+}
+
+/* ================================== */
 /* №2 */
 @media (max-width: 991.98px) {
 	.button {
@@ -171,6 +190,17 @@ padding: 10px 37px 10px 0;
 		color: white;
 		padding: 9px 15px;
 		background: #F2726F;
+}
+.header__title {
+	font-weight: 900;
+font-size: 46px;
+line-height: 1.1;
+color: #FFFFFF;
+margin-bottom: 48px;
+}
+.header__content {
+	padding: 126px 247px 212px 100px;
+	
 }
 
 }
@@ -217,6 +247,17 @@ display: flex;
 	.menu__link {
 		
 	padding: 5px 10px 5px 0;
+	}
+	.header__title {
+		font-weight: 700;
+	font-size: 26px;
+	line-height: 1.1;
+	color: #FFFFFF;
+	margin-bottom: 28px;
+	}
+	.header__content {
+		padding: 40px 50px 100px 10px;
+		
 	}
 }
 
