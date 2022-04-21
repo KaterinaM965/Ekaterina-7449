@@ -78,7 +78,7 @@ body {
 } 
 
 .header {
-	background: url("../img/header/duotone.jpg") 0 0 / 100% 100% no-repeat;
+	background: url("../img/header/duotone.jpg") 0 0 / cover no-repeat;
 }
 .header__container {
 	padding-top: 26px;
@@ -179,6 +179,9 @@ margin-bottom: 48px;
 /* ================================== */
 /* №2 */
 @media (max-width: 991.98px) {
+	.header {
+		background: url("../img/header/duotone.jpg") 0 0 / 100% auto no-repeat;
+	}
 	.button {
 		display: inline-block;
 		font-weight: 700;
@@ -193,20 +196,23 @@ margin-bottom: 48px;
 }
 .header__title {
 	font-weight: 900;
-font-size: 46px;
-line-height: 1.1;
+font-size: 36px;
+line-height: 1;
 color: #FFFFFF;
-margin-bottom: 48px;
+margin-bottom: 38px;
 }
 .header__content {
-	padding: 126px 247px 212px 100px;
+	padding: 46px 247px 212px 50px;
 	
 }
 
 }
 /* №3 */
 @media (max-width: 767.98px) {
-	
+	.header {
+		background: url("../img/header/duotone.jpg") 0 0 / 100% 80% no-repeat;
+	}
+
 .header__body, .button {
 display: flex;
 justify-content: space-between;
