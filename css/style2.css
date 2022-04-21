@@ -78,7 +78,7 @@ body {
 } 
 
 .header {
-	background: url("../img/header/duotone.jpg");
+	background: url("../img/header/duotone.jpg") 0 0 / 100% 100% no-repeat;
 }
 .header__container {
 	padding-top: 26px;
