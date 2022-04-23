@@ -182,7 +182,7 @@ padding: 0 0 0 32px;
 }
 .courses__button {
 position: absolute;
-top: 215px;
+top: 190px;
 right: 450px;
 } 
 
@@ -333,7 +333,7 @@ color: #424551;
 
 .events {
 	background:#fddece;
-        padding-top: 80px;
+padding-top: 80px;
 }
 .item-events {
 	background: #FFFFFF;
@@ -343,6 +343,10 @@ color: #424551;
 }
 .titles{
 	text-align: center;
+
+}
+.titles__title{
+	margin-bottom: 60px;
 }
 .events__item {
 	margin-bottom: 24px;
@@ -358,7 +362,8 @@ letter-spacing: 1px;
 color: #FF3F3A;
 padding-right: 20px;
 }
-.item-events__body {padding-right: 20px;
+.item-events__body {
+	padding-right: 20px;
 }
 .item-events__month, .item-events__title {
 	font-weight: 700;
@@ -386,13 +391,30 @@ padding: 0px 32px;
 	background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
 	border-radius: 4px;
 }
+.events__text{
+	display: flex;
+	padding: 40px 0 80px 0;
+	justify-content: center;
+	gap: 20px;
+}
 .events__footer{
 	font-weight: 700;
 font-size: 28px;
 line-height: 150%;
 color: #1E212C;
 }
-.button {
+.orange {
+	display: inline-block;
+	color: white;
+	background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
+	border-radius: 4px;
+	padding: 0px 32px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 14px;
+	letter-spacing: 0.5px;
+	line-height: 3.1;
+	margin-right: 20px;
 }
 /* ================================================ */
 
