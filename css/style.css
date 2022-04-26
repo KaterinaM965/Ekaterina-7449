@@ -243,9 +243,25 @@ display: flex;
       gap: 20px;
 		padding-bottom: 20px;
 	}
+	
 }
 
-
+@media (max-width: 415px){
+	 .header__info{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+      gap: 20px;
+		padding-bottom: 20px;
+	} 
+	/* .header__picture{
+		flex: 0 0 40px;
+		overflow: hidden;
+	} */
+	.info__time, .info__phone {
+		display: none;
+	}
+}
 
 
 
