@@ -1,0 +1,459 @@
+/* 
+&display=swap
+&subset=cyrillic-ext 
+*/
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,500,700,900&display=swap");
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	/* по умолчанию */
+	/* font-size: 16px;  */
+}
+body {
+	line-height: 1;
+	color: #fff;
+	background-color: #333;
+	font-family: "Roboto";
+	font-size: 14px;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+/* ------------------------------ */
+.main {
+	flex-grow: 1;
+}
+
+/* Условные ПК, ноуты и телевизоры */
+/* 1050 из макета (контейнер + отступы) */
+/* @media (max-width: 1050px) { */
+/* } */
+/* Условные планшеты */
+/* @media (max-width: 991.98px) { */
+/* } */
+/* Условные мобилки */
+/* @media (max-width: 767.98px) { */
+/* } */
+
+[class*="__container"] {
+	max-width: 1050px;
+	margin: 0px auto;
+	padding: 0px 15px;	
+} 
+
+.header {
+	background: url("../img/who-we-are/fon.jpg") 0 0 / cover no-repeat  ;
+	min-height: 800px;
+}
+.header__container {
+	padding-top: 26px;
+}
+
+.header__picture{
+	flex: 0 0 174px;
+}
+.header__image{
+	width: 100%;
+}
+.header__info {
+	display: flex;
+}
+
+.info__time {
+	margin-right: 30px;
+	background: url("../img/header/time.svg") 0 0 no-repeat;
+	padding: 0 0 0 32px;
+}
+.title {
+	font-weight: 700;
+font-size: 12px;
+line-height: 1.8;
+letter-spacing: 0.15px;
+color: #FFFFFF;
+max-width: 172px;
+}
+.subtitle {
+	font-weight: 500;
+font-size: 12px;
+line-height: 1.8;
+letter-spacing: 0.15px;
+color: #FFFFFF;
+}
+.info__phone {
+	background: url("../img/header/phone.svg") 0 0 no-repeat;
+	padding: 0 0 0 32px;
+	margin-right: 20px;
+} 
+
+.button {
+		display: inline-block;
+		font-weight: 700;
+		font-size: 12px;
+		line-height: 2;
+		letter-spacing: 0.15px;
+		text-transform: uppercase;
+		border-radius: 2px;
+		color: white;
+		padding: 9px 35px;
+		background-color: #C40B0B;
+		transition: background-color 0.3s ease 0s;
+}
+.button:hover{
+	background-color: #b37171;
+}
+.header__menu {
+	background: #FFFFFF;
+/* border-radius: 10px; */
+min-height: 60px;
+align-items: center;
+   justify-content: space-between;
+	padding: 0 40px;
+	margin-bottom: 126px;
+}
+.menu {
+	display: flex;
+}
+
+.menu__link {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.5;
+letter-spacing: 0.15px;
+color: #000000;
+margin: 0px 37px 0px 0;
+}
+
+.menu__search {
+	margin-right: 22px;
+}
+
+h1 {
+	font-weight: 900;
+font-size: 56px;
+line-height: 1;
+color: #FFFFFF;
+margin-bottom: 48px;
+max-width: 583px;
+}
+
+/* №2 */
+@media (max-width: 991.98px) {
+	
+	.button {
+		display: inline-block;
+		font-weight: 700;
+		font-size: 12px;
+		line-height: 2;
+		letter-spacing: 0.15px;
+		text-transform: uppercase;
+		border-radius: 5px;
+		color: white;
+		padding: 9px 15px;
+		background: #F2726F;
+}
+
+}
+/* №3 */
+@media (max-width: 767.98px) {
+	.header__body{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+      gap: 20px;
+		padding-bottom: 20px;
+	}
+
+	.menu__icon {
+		display: flex;
+	}
+}
+
+@media (min-width: 767.98px) {
+	
+	.header__body {
+		display:flex;
+		justify-content: space-between;
+		margin-bottom:  28px;
+	} 
+	
+}
+
+
+@media (max-width: 573px) {
+	.header__info{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+      gap: 20px;
+		padding-bottom: 20px;
+	}
+	h1 {
+		font-weight: 700;
+		font-size: 46px;
+		line-height: 1;
+		margin-bottom: 28px;
+	}
+	.header__title{
+		text-align: center;
+	}
+}
+
+@media (max-width: 415px){
+	.header__info{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+      gap: 20px;
+		padding-bottom: 20px;
+	} 
+	
+	.info__time, .info__phone {
+		display: none;
+	}
+	
+	h1 {
+		font-weight: 700;
+font-size: 36px;
+line-height: 1;
+margin-bottom: 28px;
+	}
+}
+
+
+/* =======who we are================= */
+
+.who-we-are {
+	padding-bottom: 230px;
+}
+.who-we-are__content {
+	background: #FFFFFF;
+	max-height: 700px;
+	padding: 100px 87px 0px 87px;
+	margin: -80px 0px 0px 0px;
+}
+@media (max-width: 991.98px) {
+	.who-we-are__content {
+		padding: 80px 87px 0px 87px;
+		margin: -70px 0px 0px 0px;
+	}
+}
+@media (max-width: 767.98px) {
+	.who-we-are__content {
+		padding: 80px 67px 0px 67px;
+	}
+	
+}
+@media (max-width: 573px) {
+	.who-we-are__content {
+		padding: 80px 67px 0px 67px;
+	}
+}
+@media (max-width: 415px) {
+	.who-we-are__content {
+		padding: 50px 37px 0px 37px;
+	}
+	.block-header__title {
+	font-size: 26px;
+	}
+}
+.who-we-are__header {
+	
+}
+.block-header {
+	max-width: 655px;
+}
+.block-header__sub-title {
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 2;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	color: #4B4B4B;
+	background: url("../img/who-we-are/chevron.svg") 0 0 / 24px no-repeat;
+	padding: 0 0 0 32px;
+	margin-bottom: 33px;
+}
+.block-header__title {
+	font-weight: 900;
+font-size: 36px;
+line-height: 1.1;
+color: #02133C;
+margin-bottom: 36px;
+}
+.who-we-are__text {
+	font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.15px;
+color: #4B4B4B;
+
+margin-bottom: 54px;
+}
+.who-we-are__image {
+}
+.image-box {
+	flex: 0 0 420px;
+}
+.image-box__image {
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* №1 */
+/* @media (max-width: 1050px) {
+	[class*="__container"] { */
+		/* max-width: 970px; 
+	}
+}*/
+/* №2 */
+/* @media (max-width: 991.98px) {
+	[class*="__container"] { */
+		/* max-width: 750px; 
+	}
+}*/
+/* №3 */
+/* @media (max-width: 767.98px) {
+	[class*="__container"] { */
+		/* max-width: none;
+	}
+} */
+
+/* .block {
+	padding: 20px 0;
+	background-color: #794f45;
+}
+.block__container {
+}
+.block__items {
+}
+.block__item {
+	min-width: 150px;
+	flex: 0 1 33.333%;
+	border: 1px solid #000;
+	background-color: #7a956b;
+	margin: 0px 0px 80px 0px;
+}
+
+@media (max-width: 767.98px) {
+	.block__item {
+		margin: 0px 0px 20px 0px;
+	} 
+}*/
+
+/* Mobile First */
+/* @media (min-width: 540px) {
+	.block__items {
+		display: flex;
+	}
+} */
+
+/* 
+Большие экраны - 1440px
+Маленькие экраны - не меньше 1024px
+Планшеты - от 1024 до 768
+Мобильные устройства - ниже 768
+
+*/
+
+/* Не более чем или равно 1110px (меньше или равно чем 1110px) */
+/* @media (max-width: 1109.5px) { 
+}*/
+
+/* Более сложные условия */
+/*
+@media (min-width: 479.98px) and (max-width: 767.98px) {
+	.block__item {
+		background-color: #77608d;
+		padding: 20px;
+	}
+}
+*/
