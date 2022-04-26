@@ -79,17 +79,19 @@ body {
 } 
 
 .header {
-	background: url("../img/header/duotone.jpg");
+	background: url("../img/who-we-are/fon.jpg") 0 0 / cover no-repeat  ;
+	min-height: 800px;
 }
 .header__container {
 	padding-top: 26px;
 }
-/* .header__body {
-	display:flex;
-	justify-content: space-between;
-	margin-bottom:  28px;
-} */
 
+.header__picture{
+	flex: 0 0 174px;
+}
+.header__image{
+	width: 100%;
+}
 .header__info {
 	display: flex;
 }
@@ -127,22 +129,23 @@ color: #FFFFFF;
 		line-height: 2;
 		letter-spacing: 0.15px;
 		text-transform: uppercase;
-		border-radius: 5px;
+		border-radius: 2px;
 		color: white;
 		padding: 9px 35px;
-		background-color: #F2726F;
+		background-color: #C40B0B;
 		transition: background-color 0.3s ease 0s;
 }
 .button:hover{
-	background-color: #f08f8d;
+	background-color: #b37171;
 }
 .header__menu {
 	background: #FFFFFF;
-border-radius: 10px;
+/* border-radius: 10px; */
 min-height: 60px;
 align-items: center;
    justify-content: space-between;
 	padding: 0 40px;
+	margin-bottom: 126px;
 }
 .menu {
 	display: flex;
@@ -159,6 +162,15 @@ margin: 0px 37px 0px 0;
 
 .menu__search {
 	margin-right: 22px;
+}
+
+h1 {
+	font-weight: 900;
+font-size: 56px;
+line-height: 1;
+color: #FFFFFF;
+margin-bottom: 48px;
+max-width: 583px;
 }
 
 /* №2 */
@@ -187,41 +199,10 @@ margin: 0px 37px 0px 0;
       gap: 20px;
 		padding-bottom: 20px;
 	}
-/* .header__body, .button {
 
-}
-.header__image {
-	max-width: 120px;
-} */
-/* .button {
-			display: inline-block;
-			font-weight: 700;
-			font-size: 12px;
-			line-height: 2;
-			letter-spacing: 0.15px;
-			text-transform: uppercase;
-			border-radius: 5px;
-			color: white;
-			padding: 4px 4px;
-			background: #F2726F;
-			
-	} */
-	.info__time, .info__phone {
-		/* display: none; */
-	}
-	
-	.header__menu{
-	
-			/* justify-content: space-between; */
-			/* padding: 0 10px; */
-	}
 	.menu__icon {
-display: flex;
-
+		display: flex;
 	}
-	/* .menu__search{
-		margin-right: 5px;
-	} */
 }
 
 @media (min-width: 767.98px) {
@@ -243,30 +224,116 @@ display: flex;
       gap: 20px;
 		padding-bottom: 20px;
 	}
-	
+	h1 {
+		font-weight: 700;
+		font-size: 46px;
+		line-height: 1;
+		margin-bottom: 28px;
+	}
+	.header__title{
+		text-align: center;
+	}
 }
 
 @media (max-width: 415px){
-	 .header__info{
+	.header__info{
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
       gap: 20px;
 		padding-bottom: 20px;
 	} 
-	/* .header__picture{
-		flex: 0 0 40px;
-		overflow: hidden;
-	} */
+	
 	.info__time, .info__phone {
 		display: none;
+	}
+	
+	h1 {
+		font-weight: 700;
+font-size: 36px;
+line-height: 1;
+margin-bottom: 28px;
 	}
 }
 
 
+/* =======who we are================= */
 
+.who-we-are {
+	padding-bottom: 230px;
+}
+.who-we-are__content {
+	background: #FFFFFF;
+	max-height: 700px;
+	padding: 100px 87px 0px 87px;
+	margin: -80px 0px 0px 0px;
+}
+@media (max-width: 991.98px) {
+	.who-we-are__content {
+		padding: 80px 87px 0px 87px;
+		margin: -70px 0px 0px 0px;
+	}
+}
+@media (max-width: 767.98px) {
+	.who-we-are__content {
+		padding: 80px 67px 0px 67px;
+	}
+	
+}
+@media (max-width: 573px) {
+	.who-we-are__content {
+		padding: 80px 67px 0px 67px;
+	}
+}
+@media (max-width: 415px) {
+	.who-we-are__content {
+		padding: 50px 37px 0px 37px;
+	}
+	.block-header__title {
+	font-size: 26px;
+	}
+}
+.who-we-are__header {
+	
+}
+.block-header {
+	max-width: 655px;
+}
+.block-header__sub-title {
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 2;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	color: #4B4B4B;
+	background: url("../img/who-we-are/chevron.svg") 0 0 / 24px no-repeat;
+	padding: 0 0 0 32px;
+	margin-bottom: 33px;
+}
+.block-header__title {
+	font-weight: 900;
+font-size: 36px;
+line-height: 1.1;
+color: #02133C;
+margin-bottom: 36px;
+}
+.block-header__text {
+	font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.15px;
+color: #4B4B4B;
 
-
+margin-bottom: 54px;
+}
+.who-we-are__image {
+}
+.image-box {
+	flex: 0 0 420px;
+}
+.image-box__image {
+	width: 100%;
+}
 
 
 
