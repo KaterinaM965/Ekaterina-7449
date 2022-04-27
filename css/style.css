@@ -79,7 +79,7 @@ body {
 } 
 
 .header {
-	background: url("../img/who-we-are/fon.jpg") 0 0 / cover no-repeat  ;
+	background: url("../img/who-we-are/fon.jpg") center / cover no-repeat  ;
 	min-height: 800px;
 }
 .header__container {
@@ -171,6 +171,11 @@ color: #FFFFFF;
 margin-bottom: 48px;
 max-width: 583px;
 }
+@media (max-width: 1025.98px){
+	.header {
+	/* background: url("../img/who-we-are/fon.jpg") 100% 100% / cover no-repeat; */
+}
+}
 
 /* №2 */
 @media (max-width: 991.98px) {
@@ -220,12 +225,21 @@ max-width: 583px;
 
 
 @media (max-width: 573px) {
+	.header {
+		background: url("../img/who-we-are/fon.jpg") center /  no-repeat  ;
+		min-height: 600px;
+	}
 	.header__info{
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
-      gap: 20px;
-		padding-bottom: 20px;
+      /* gap: 20px; */
+		/* padding-bottom: 20px; */
+	}
+		.header__menu {
+			
+			margin-bottom: 75px;
+		
 	}
 	h1 {
 		font-weight: 700;
@@ -236,6 +250,9 @@ max-width: 583px;
 	.header__title{
 		text-align: center;
 	}
+	.none{
+		display: none;
+	}
 }
 
 @media (max-width: 415px){
@@ -243,8 +260,8 @@ max-width: 583px;
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
-      gap: 20px;
-		padding-bottom: 20px;
+      /* gap: 20px; */
+		/* padding-bottom: 20px; */
 	} 
 	
 	.info__time, .info__phone {
@@ -307,10 +324,18 @@ margin-bottom: 54px;
 .who-we-are__image {
 }
 .image-box {
-	flex: 0 0 420px;
+	/* flex: 0 0 420px; */
+	position: relative;
+	padding: 0 0 60% 0;
 }
 .image-box__image {
+	/* width: 100%; */
+	position: absolute;
+	left: 0;
+	top: 0;
 	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 
 @media (max-width: 991.98px) {
@@ -329,11 +354,16 @@ margin-bottom: 54px;
 }
 @media (max-width: 480px) {
 	.who-we-are__content {
+		
 		margin: -30px 0px;
       padding: 20px 17px 0px 17px;
 	}
 	.who-we-are__text{
+		text-align: center;
 		margin-bottom: 34px;
+	}
+	.block-header__title{
+		text-align: center;
 	}
 }
 
