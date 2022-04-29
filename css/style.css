@@ -524,6 +524,7 @@ color: #FFFFFF;
 	}
 }
 .item-services {
+	
 }
 .item-services__card {
 	background-color: #ffffff;
@@ -532,7 +533,13 @@ color: #FFFFFF;
 	flex-direction: column;
 	text-align: center;
 	align-items: center;
+	transition: all 0.3s ease ;
 	height: 100%;
+
+}
+.item-services__card:hover{
+	
+	filter: drop-shadow(0px 8px 16px rgba(38, 38, 38, 0.24)) drop-shadow(0px 16px 24px rgba(38, 38, 38, 0.2));
 }
 .item-services__icon {
 	flex: 0 0 63px;
