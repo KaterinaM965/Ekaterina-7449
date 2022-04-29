@@ -224,7 +224,7 @@ max-width: 583px;
 
 @media (max-width: 573px) {
 	.header {
-		background: url("../img/who-we-are/fon.jpg") center /  no-repeat  ;
+		background: url("../img/who-we-are/fon.jpg") center no-repeat  ;
 		min-height: 600px;
 	}
 	.header__info{
