@@ -203,9 +203,6 @@ max-width: 583px;
       gap: 20px;
 		padding-bottom: 20px;
 	}
-	/* .header {
-		min-height: 600px;
-	} */
 	.menu__icon {
 		display: flex;
 	}
@@ -231,8 +228,6 @@ max-width: 583px;
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
-      /* gap: 20px; */
-		/* padding-bottom: 20px; */
 	}
 		.header__menu {
 			
@@ -258,8 +253,6 @@ max-width: 583px;
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
-      /* gap: 20px; */
-		/* padding-bottom: 20px; */
 	} 
 	
 	.info__time, .info__phone {
@@ -320,15 +313,12 @@ letter-spacing: 0.15px;
 color: #4B4B4B;
 margin-bottom: 54px;
 }
-.who-we-are__image {
-}
+
 .image-box {
-	/* flex: 0 0 420px; */
 	position: relative;
 	padding: 0 0 60% 0;
 }
 .image-box__image {
-	/* width: 100%; */
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -381,19 +371,6 @@ margin-bottom: 54px;
 	padding: 110px 0 122px 0;
 }
 
-
-.promise__container {
-}
-.promise__content {
-}
-.promise__header {
-}
-.block-header {
-}
-.block-header__sub-title {
-}
-.block-header__title {
-}
 .promise__row {
 	display: flex;	
 	flex-wrap: wrap;
@@ -455,14 +432,11 @@ color: #4B4B4B;
 /* ========video========= */
 
 .video {
-	/* margin-bottom: 110px; */
 	background: url("../img/video/video.png") 0 0 / cover no-repeat;
 	min-height: 500px;
-	
 }
 .video__container {
 	max-width: 100%;
-/* margin-left: 800px; */
 padding-top: 112px;
 	max-width: 411px;
 }
@@ -472,12 +446,6 @@ font-size: 36px;
 line-height: 1.1;
 color: #FFFFFF;
 
-}
-.video__button {
-	/* flex: 0 1 48px; */
-}
-.video__image{
-	/* width: 100%; */
 }
 
 /* =========service========== */
@@ -514,12 +482,7 @@ color: #FFFFFF;
 .services__header {
 	margin: 0px 0px 74px 0px;
 }
-.block-header {
-}
-.block-header__sub-title {
-}
-.block-header__title {
-}
+
 .services__items {
 	display: flex;
 	flex-wrap: wrap;
@@ -544,9 +507,7 @@ color: #FFFFFF;
 	max-width: 360px;
 	}
 }
-.item-services {
-	
-}
+
 .item-services__card {
 	background-color: #ffffff;
 	padding: 50px 44px;
@@ -559,7 +520,6 @@ color: #FFFFFF;
 
 }
 .item-services__card:hover{
-	
 	filter: drop-shadow(0px 8px 16px rgba(38, 38, 38, 0.24)) drop-shadow(0px 16px 24px rgba(38, 38, 38, 0.2));
 }
 .item-services__icon {
@@ -576,8 +536,7 @@ color: #FFFFFF;
 .item-services__icon:not(:last-child) {
 	margin: 0px 0px 33px 0px;
 }
-.item-services__image {
-}
+
 .item-services__title:not(:last-child) {
 	margin: 0px 0px 20px 0px;
 }
@@ -596,8 +555,6 @@ color: #FFFFFF;
 	color: #4B4B4B;
 }
 
-
-
 .services__button{
 	align-self: center;
 	margin-bottom: 122px;
@@ -611,5 +568,118 @@ color: #FFFFFF;
 @media (max-width: 424.98px) {
 	.services__items{
 		justify-content: center;
+	}
+}
+
+/* ======appointment======= */
+.appointment {
+	background: #02133C;
+	padding: 130px 0px 210px 0px;
+}
+.appointment__container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.appointment__form {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #fff;
+	max-width: 585px;
+	margin: 0px auto;
+	justify-content: center;
+	padding: 76px 58px;
+
+}
+
+.form__title {
+	font-weight: 900;
+font-size: 36px;
+line-height: 1.1;
+text-align: center;
+color: #02133C;
+margin-bottom: 48px;
+}
+.form__line{
+	display: flex;
+	column-gap: 4.761%;
+	flex-wrap: wrap;
+	gap: 22px;
+}
+.form__line:not(:last-child) {
+	margin-bottom: 30px;
+}
+.form__input, .form__select {
+	color: #959595;
+background-color:  #F5F5F5;
+min-height: 48px;
+flex: 1 1 25%;
+	font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+padding-left: 15px;
+align-items: center;
+letter-spacing: 0.15px;
+
+}
+.form__input:focus {
+	outline: 1px solid #000000;
+}
+.form__input::placeholder {
+	font-weight: 400;
+	letter-spacing: 0.15px;
+	color: #959595;
+} 
+.form__textarea {
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.15px;
+   min-height: 180px;
+	padding: 17px 0 0 23px;
+	flex: 1 1 100%;
+	background-color: #F5F5F5;
+}
+
+.appointment__info {
+	padding: 0 10px;
+	align-self: center;
+	max-width: 344px;
+}
+.info__title {
+	font-weight: 900;
+font-size: 30px;
+line-height: 1.2;
+text-align: center;
+color: #FFFFFF;
+}
+.info__number {
+	font-weight: 900;
+font-size: 96px;
+text-align: center;
+color: #C40B0B;
+}
+.info__subtitle {
+	font-weight: 900;
+font-size: 19px;
+line-height: 1.3;
+text-align: center;
+color: #FFFFFF;
+}
+
+@media (max-width: 797.98px) {
+	.appointment {
+		padding: 70px 0px 110px 0px;
+	}
+	.appointment__container{
+		justify-content: center;
+	}
+	.appointment__info{
+		margin-top: 55px;
+	}
+}
+@media (max-width: 424.98px) {
+	.appointment__form {
+		padding: 40px 25px;
 	}
 }
