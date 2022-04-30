@@ -456,7 +456,7 @@ color: #4B4B4B;
 
 .video {
 	/* margin-bottom: 110px; */
-	background: url("/img/video/video.png") 0 0 / cover no-repeat;
+	background: url("../img/video/video.png") 0 0 / cover no-repeat;
 	min-height: 500px;
 	
 }
