@@ -1262,7 +1262,7 @@ body {
   height: 16px;
   display: inline-block;
   margin: 0 12px -3px 0px;
-  background: url("img/recipes/views.svg") 0 0 no-repeat;
+  background: url("../img/recipes/views.svg") 0 0 no-repeat;
 }
 
 .card__comment {
@@ -1275,7 +1275,7 @@ body {
   height: 20px;
   display: inline-block;
   margin: 0 12px -6px 0px;
-  background: url("img/recipes/com.svg") 0 0 no-repeat;
+  background: url("../img/recipes/com.svg") 0 0 no-repeat;
 }
 
 .card__image {
