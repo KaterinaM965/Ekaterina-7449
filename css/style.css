@@ -298,11 +298,11 @@ h6 {
   margin-right: 8px;
 }
 .facebook:hover {
-  background: url("img/header_up/facebook.svg");
+  background: url("../img/header_up/facebook.svg") 1px 1px no-repeat;
 }
 
 .instagram:hover {
-  background: url("img/header_up/inst.svg") 3px 3px no-repeat;
+  background: url("../img/header_up/inst.svg") 3px 3px no-repeat;
 }
 
 .header {
@@ -1148,9 +1148,9 @@ h6 {
 }
 
 .facebook:hover {
-  background: url("img/header_up/facebook.svg");
+  background: url("../img/header_up/facebook.svg") 1px 1px no-repeat;
 }
 
 .instagram:hover {
-  background: url("img/header_up/inst.svg") 3px 3px no-repeat;
+  background: url("../img/header_up/inst.svg") 3px 3px no-repeat;
 }
