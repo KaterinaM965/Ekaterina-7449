@@ -222,6 +222,12 @@ h6 {
   flex-wrap: wrap;
   row-gap: 10px;
 }
+@media (max-width: 425px) {
+  .up {
+    justify-content: flex-end;
+    padding: 15px;
+  }
+}
 .up__text {
   line-height: 18px;
   display: flex;
@@ -235,7 +241,6 @@ h6 {
     flex-wrap: wrap;
     justify-content: center;
     row-gap: 10px;
-    padding-bottom: 10px;
   }
 }
 @media (max-width: 880px) {
@@ -246,6 +251,10 @@ h6 {
 .up__button {
   color: #FFFFFF;
   text-decoration: underline;
+}
+.up__button:hover {
+  text-decoration: underline;
+  color: #0156FF;
 }
 .up__items {
   color: #fff;
@@ -280,9 +289,20 @@ h6 {
 .call {
   margin-right: 14px;
 }
+.call:hover {
+  text-decoration: underline;
+  color: #0156FF;
+}
 
 .facebook {
   margin-right: 8px;
+}
+.facebook:hover {
+  background: url("img/header_up/facebook.svg");
+}
+
+.instagram:hover {
+  background: url("img/header_up/inst.svg") 3px 3px no-repeat;
 }
 
 .header {
@@ -410,6 +430,44 @@ h6 {
   border-radius: 50%;
 }
 
+.icon-item {
+  display: none;
+}
+@media (max-width: 768px) {
+  .icon-item {
+    display: block;
+    position: absolute;
+    top: 18px;
+    right: 10px;
+    width: 30px;
+    height: 18px;
+    cursor: pointer;
+    z-index: 5;
+  }
+  .icon-item span {
+    transition: all 0.3s ease 0s;
+    top: calc(50% - 1px);
+    left: 0px;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+  }
+  .icon-item span:first-child {
+    top: 0px;
+  }
+  .icon-item span:last-child {
+    top: auto;
+    bottom: 0px;
+  }
+  .icon-item._active span {
+    transform: scale(0);
+  }
+  .icon-item._active span:first-child {
+    transform: rotate(-45deg);
+    bottom: calc(50% - 1px);
+  }
+}
 .home__menu {
   display: flex;
   align-items: center;
@@ -456,7 +514,7 @@ h6 {
 @media (max-width: 425px) {
   .family__container {
     flex-direction: column-reverse;
-    padding: 0px 0px 26px 0px;
+    padding: 0px 16px 26px 33px;
   }
 }
 .family__image {
@@ -547,7 +605,7 @@ h6 {
 }
 @media (max-width: 425px) {
   .shop__container {
-    padding: 10px 16px 28px 33px;
+    padding: 20px 16px 28px 33px;
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: column;
@@ -555,6 +613,7 @@ h6 {
 }
 .shop__image {
   flex: 0 0 707px;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 71.35%, #FFFFFF 100%);
 }
 @media (max-width: 768px) {
   .shop__image {
@@ -567,10 +626,6 @@ h6 {
     width: 246px;
   }
 }
-.image {
-  background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 71.35%, #FFFFFF 100%);
-}
-
 .block-title {
   flex: 0 0 33%;
   margin: 0 auto;
@@ -656,7 +711,7 @@ h6 {
 }
 @media (max-width: 425px) {
   .padding {
-    padding: 16px 30px 33px 16px;
+    padding: 16px 16px 33px 33px;
     flex-direction: column-reverse;
   }
 }
@@ -700,7 +755,7 @@ h6 {
 }
 @media (max-width: 425px) {
   .padding2 {
-    padding: 0px 15px 32px 33px;
+    padding: 0px 16px 32px 33px;
   }
 }
 
@@ -742,7 +797,7 @@ h6 {
 }
 @media (max-width: 425px) {
   .padding3 {
-    padding: 30px 0 22px 0;
+    padding: 30px 16px 22px 33px;
   }
 }
 
