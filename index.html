@@ -1,179 +1,339 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 
 <head>
+	<title>Главная</title>
 	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230607205132">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Верстка «Lesson_19_my»</title>
 </head>
 
 <body>
-	<div class="rootpage">
-		<h1>Верстка «Lesson_19_my»</h1>
-		<div class="rootpage__info">
-			Особенности проекта
-		</div>
-		<h2>Готовые страницы:</h2>
-		<ol class="rootpage__list">
-			<li><a target="_blank" href="home.html">Главная</a></li>
-		</ol>
-		<h2>Попапы:</h2>
-		<ol class="rootpage__list">
-			<li><a target="_blank" href="home.html#"></a></li>
-		</ol>
-		<div class="rootpage__tnx">
-			<h2>Спасибо за заказ!</h2>
-			<p>Буду рад (а) хорошему отзыву.</p>
-			<p>Обращайтесь еще!</p>
-		</div>
-		<div class="rootpage__contacts">
-			<h2>Мои контакты:</h2>
-			<p>Почта: <a href="mailto:email@gmail.com">email@gmail.com</a></p>
-			<p>Телефон: <a href="tel:8800800800">8 800 800 800</a></p>
-			<p>Соц. сеть: <a href="">ссылка на соц. сеть</a></p>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<a href="" class="header__logo">
+					<picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="home.html" class="header__image -ibg"></picture>
+				</a>
+
+				<nav class="header__menu menu">
+					<div class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="" class="menu__link">Home</a></li>
+							<li class="menu__item"><a href="" class="menu__link">Services</a></li>
+							<li class="menu__item"><a href="" class="menu__link">About</a></li>
+							<li class="menu__item"><a href="" class="menu__link">The Team</a></li>
+							<li class="menu__item"><a href="" class="menu__link">Pricing</a></li>
+							<li class="menu__item"><a href="" class="menu__link">Contact</a></li>
+						</ul>
+					</div>
+				</nav>
+
+				<div class="header__button">
+					<a href="" class="button">Sign Up</a>
+				</div>
+				<button type="button" class="icon-menu"><span></span></button>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__main main-block">
+				<div class="main-block__container_wide">
+					<div class="main-block__body">
+						<div class="main-block__content">
+							<h1 class="main-block__title"><span>Make</span> a Creative solutions for your Creative
+								<span>ideas.</span>
+							</h1>
+							<div class="main-block__text">We are here to give you effective ideas. We help the brands to become
+								what they want. </div>
+							<a href="" class="main-block__button button">Get Started</a>
+						</div>
+						<div class="main-block__picture">
+							<div class="main-block__image">
+								<picture><source srcset="img/01.webp" type="image/webp"><img src="img/01.png" alt="Картинка"></picture>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="service">
+				<div class="service__container">
+					<div class="service__block-text">
+						<div class="block-text">
+							<h2 class="block-text__title">We provide great services</h2>
+							<div class="block-text__text">We help people to think independent. Be the boss of your brand and be
+								<br>
+								the storyteller. An appropriate approach.
+							</div>
+						</div>
+					</div>
+					<div class="service__items">
+						<div class="service__item item-service">
+							<div class="item-service__icon">
+								<img src="img/service/01.svg" alt="Иконка">
+							</div>
+							<div class="item-service__title">Web Design</div>
+							<div class="item-service__text">Powerful creations for the practice safe design.</div>
+						</div>
+						<div class="service__item item-service">
+							<div class="item-service__icon">
+								<img src="img/service/02.svg" alt="Иконка">
+							</div>
+							<div class="item-service__title">Identity & Branding</div>
+							<div class="item-service__text">Powerful creations for the practice safe design.</div>
+						</div>
+						<div class="service__item item-service">
+							<div class="item-service__icon">
+								<img src="img/service/03.svg" alt="Иконка">
+							</div>
+							<div class="item-service__title">Print and Packaging</div>
+							<div class="item-service__text">Powerful creations for the practice safe design.</div>
+						</div>
+						<div class="service__item item-service">
+							<div class="item-service__icon">
+								<img src="img/service/04.svg" alt="Иконка">
+							</div>
+							<div class="item-service__title">Content Writing</div>
+							<div class="item-service__text">Powerful creations for the practice safe design.</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="specialist">
+				<div class="specialist__container">
+					<div class="specialist__row">
+						<div class="specialist__content content-specialist">
+							<h2 class="content-specialist__title">Johnatan Doe</h2>
+							<div class="content-specialist__subtitle">Marketing Specialist </div>
+							<div class="content-specialist__text">To make your web design company famous in the little
+								we are here to provide you as many as catchy and useful
+								web design company will surely help your company.</div>
+							<a href="" class="content-specialist__button">Learn More</a>
+						</div>
+						<div class="specialist__picture">
+							<div class="specialist__image">
+								<picture><source srcset="img/02.webp" type="image/webp"><img src="img/02.png" alt=""></picture>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="full-screen">
+				<div class="full-screen__container">
+					<div class="full-screen__content">
+						<h2 class="full-screen__title">Watch how we work</h2>
+						<div class="full-screen__text">Capture more customers with a great brand recall. Whether you need a
+							tising or
+							as a tagline for your business, our slogan generator will help you come up with us.</div>
+						<a href="" class="full-screen__play">
+							<picture><source srcset="img/button.webp" type="image/webp"><img src="img/button.jpg" alt=""></picture>
+						</a>
+					</div>
+				</div>
+			</section>
+			<section class="features">
+				<div class="features__container">
+					<div class="features__block-text">
+						<div class="block-text">
+							<h2 class="block-text__title">Best features in the world</h2>
+							<div class="block-text__text">Capture more customers wd recall. Whether you need a tising or as a
+								tagline for you. Capture more <br> customers wd recall. Whether you need a tising or as a
+								tagline for
+								you.
+							</div>
+						</div>
+					</div>
+					<div class="features__items">
+						<div class="features__item item-features">
+							<div class="item-features__icon">
+								<img src="img/features/01.svg" alt="Иконка">
+							</div>
+							<div class="item-features__title">Sleek and smooth animation</div>
+							<div class="item-features__text">Powerful creations for the practice safe design creations for the
+								prac.</div>
+						</div>
+						<div class="features__item item-features">
+							<div class="item-features__icon">
+								<img src="img/features/02.svg" alt="Иконка">
+							</div>
+							<div class="item-features__title">Crafted with detail</div>
+							<div class="item-features__text">Powerful creations for the practice safe design creations for the
+								prac.</div>
+						</div>
+						<div class="features__item item-features">
+							<div class="item-features__icon">
+								<img src="img/features/03.svg" alt="Иконка">
+							</div>
+							<div class="item-features__title">Save your time</div>
+							<div class="item-features__text">Powerful creations for the practice safe design creations for the
+								prac.</div>
+						</div>
+						<div class="features__item item-features">
+							<div class="item-features__icon">
+								<img src="img/features/04.svg" alt="Иконка">
+							</div>
+							<div class="item-features__title">Responsive on any device</div>
+							<div class="item-features__text">Powerful creations for the practice safe design creations for the
+								prac.</div>
+						</div>
+						<div class="features__item item-features">
+							<div class="item-features__icon">
+								<img src="img/features/05.svg" alt="Иконка">
+							</div>
+							<div class="item-features__title">Easy to customize</div>
+							<div class="item-features__text">Powerful creations for the practice safe design creations for the
+								prac.</div>
+						</div>
+						<div class="features__item item-features">
+							<div class="item-features__icon">
+								<img src="img/features/06.svg" alt="Иконка">
+							</div>
+							<div class="item-features__title">Quickly effective support</div>
+							<div class="item-features__text">Powerful creations for the practice safe design creations for the
+								prac.</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="comment">
+				<div class="comment__container">
+					<div class="comment__picture">
+						<picture><source srcset="img/comment/logo.webp" type="image/webp"><img src="img/comment/logo.png" alt="логотип"></picture>
+					</div>
+					<div class="comment__text">“Always a pleasure to work with The Agency Creative. Such professional and
+						happy people and you know you’ll receive a quick innovative and no fuss service.”</div>
+					<div class="comment__body">
+						<div class="comment__image">
+							<picture><source srcset="img/comment/01.webp" type="image/webp"><img src="img/comment/01.jpg" alt="фото сотрудника"></picture>
+						</div>
+						<div class="comment__row">
+							<div class="comment__name">Johnatan Doe </div>
+							<div class="comment__position">Web Designer</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<section class="time">
+				<div class="time__container">
+					<h2 class="time__title">People have tried to predict the future since the dawn of time.</h2>
+					<a href="" class="time__button button">Get Started</a>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__price price-footer">
+					<div class="price-footer__column">
+						<div class="price-footer__title">Freelancer</div>
+						<div class="price-footer__boby">
+							<ul class="price-footer__list">
+								<li class="price-footer__item">$<span>19</span>/mo</li>
+								<li class="price-footer__item">5 Psd fles included</li>
+								<li class="price-footer__item">24 hours free support</li>
+								<li class="price-footer__item">Multiple features installed</li>
+								<li class="price-footer__item">100 Elements PSD + Al</li>
+							</ul>
+							<a href="" class="price-footer__button">Subscribe</a>
+						</div>
+					</div>
+					<div class="price-footer__column">
+						<div class="price-footer__title">Freelancer</div>
+						<div class="price-footer__boby">
+							<ul class="price-footer__list">
+								<li class="price-footer__item">$<span>24</span>/mo</li>
+								<li class="price-footer__item">5 Psd fles included</li>
+								<li class="price-footer__item">24 hours free support</li>
+								<li class="price-footer__item">Multiple features installed</li>
+								<li class="price-footer__item">100 Elements PSD + Al</li>
+							</ul>
+							<a href="" class="price-footer__button">Subscribe</a>
+						</div>
+					</div>
+					<div class="price-footer__column">
+						<div class="price-footer__title">Freelancer</div>
+						<div class="price-footer__boby">
+							<ul class="price-footer__list">
+								<li class="price-footer__item">$<span>25</span>/mo</li>
+								<li class="price-footer__item">5 Psd fles included</li>
+								<li class="price-footer__item">24 hours free support</li>
+								<li class="price-footer__item">Multiple features installed</li>
+								<li class="price-footer__item">100 Elements PSD + Al</li>
+							</ul>
+							<a href="" class="price-footer__button">Subscribe</a>
+						</div>
+					</div>
+					<div class="price-footer__column">
+						<div class="price-footer__title">Freelancer</div>
+						<div class="price-footer__boby">
+							<ul class="price-footer__list">
+								<li class="price-footer__item">$<span>15</span>/mo</li>
+								<li class="price-footer__item">5 Psd fles included</li>
+								<li class="price-footer__item">24 hours free support</li>
+								<li class="price-footer__item">Multiple features installed</li>
+								<li class="price-footer__item">100 Elements PSD + Al</li>
+							</ul>
+							<a href="" class="price-footer__button">Subscribe</a>
+						</div>
+					</div>
+				</div>
+				<div class="footer__box">
+					<div class="footer__column">
+						<nav class="footer__menu menu-footer">
+							<div class="menu-footer__body">
+								<ul class="menu-footer__list">
+									<li class="menu-footer__item"><a href="" class="menu-footer__link">Home</a></li>
+									<li class="menu-footer__item"><a href="" class="menu-footer__link">Services</a></li>
+									<li class="menu-footer__item"><a href="" class="menu-footer__link">About</a></li>
+									<li class="menu-footer__item"><a href="" class="menu-footer__link">The Team</a></li>
+									<li class="menu-footer__item"><a href="" class="menu-footer__link">Pricing</a></li>
+									<li class="menu-footer__item"><a href="" class="menu-footer__link">Contact</a></li>
+								</ul>
+							</div>
+						</nav>
+						<div class="footer__social social-footer">
+							<ul class="social-footer__list">
+								<li class="social-footer__item">
+									<a href="" class="social-footer__link">
+										<picture><source srcset="img/footer/facebook.webp" type="image/webp"><img src="img/footer/facebook.png" alt=""></picture>
+									</a>
+								</li>
+								<li class="social-footer__item">
+									<a href="" class="social-footer__link">
+										<picture><source srcset="img/footer/twitter.webp" type="image/webp"><img src="img/footer/twitter.png" alt=""></picture>
+									</a>
+								</li>
+								<li class="social-footer__item">
+									<a href="" class="social-footer__link">
+										<picture><source srcset="img/footer/whatsapp.webp" type="image/webp"><img src="img/footer/whatsapp.png" alt=""></picture>
+									</a>
+								</li>
+								<li class="social-footer__item">
+									<a href="" class="social-footer__link">
+										<picture><source srcset="img/footer/instagram.webp" type="image/webp"><img src="img/footer/instagram.png" alt=""></picture>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer__year">@ A new era 2016. Awesome wireframe by Andrei Dorin</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<!-- <div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+				Text
+			</div>
 		</div>
 	</div>
+</div> -->
+	<script src="js/app.min.js?_v=20230607205132"></script>
 </body>
-<style>
-	@charset "UTF-8";
-	@import url("https://fonts.googleapis.com/css?family=Montserrat:regular,700&display=swap");
-
-	*,
-	*::before,
-	*::after {
-		padding: 0px;
-		margin: 0px;
-		border: 0px;
-		box-sizing: border-box;
-	}
-
-	html,
-	body {
-		height: 100%;
-		margin: 0;
-		padding: 0;
-		min-width: 320px;
-		width: 100%;
-		color: #fff;
-		background-color: #5e5373;
-	}
-
-	body {
-		font-family: Montserrat;
-		font-size: 100%;
-		line-height: 1;
-		font-size: 1rem;
-	}
-
-	a {
-		text-decoration: underline;
-		color: #ebe691
-	}
-
-	a:visited {
-		text-decoration: underline;
-		color: #aaa768;
-	}
-
-	a:hover {
-		text-decoration: none;
-	}
-
-	ul li {
-		list-style: none;
-	}
-
-	img {
-		vertical-align: top;
-	}
-
-	.wrapper {
-		width: 100%;
-		min-height: 100%;
-		overflow: hidden;
-	}
-
-	.rootpage {
-		padding: 30px;
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
-	}
-
-	@media (max-width: 767px) {
-		.rootpage {
-			padding: 30px 15px;
-		}
-	}
-
-	h1 {
-		color: #ebe691;
-		font-size: 2.5rem;
-		margin: 0px 0px 1.25rem 0px;
-	}
-
-	@media (max-width: 767px) {
-		h1 {
-			font-size: 1.85rem;
-			margin: 0px 0px 1.25rem 0px;
-		}
-	}
-
-	h2 {
-		color: #ebe691;
-		font-size: 1.25rem;
-		margin: 0px 0px 1rem 0px;
-	}
-
-	@media (max-width: 767px) {
-		h2 {
-			font-size: 1.125rem;
-			margin: 0px 0px 1rem 0px;
-		}
-	}
-
-	.rootpage__info {
-		line-height: 140%;
-		margin: 0px 0px 1.5rem 0px;
-	}
-
-	.rootpage__list {
-		margin: 0px 0px 2.25rem 1.25rem;
-	}
-
-	.rootpage__list li:not(:last-child) {
-		margin: 0px 0px 15px 0px;
-	}
-
-	.rootpage__contacts,
-	.rootpage__tnx {
-		border-radius: 200px;
-		padding: 20px 65px;
-		line-height: 140%;
-	}
-
-	@media (max-width: 767px) {
-
-		.rootpage__contacts,
-		.rootpage__tnx {
-			border-radius: 40px;
-			padding: 20px;
-		}
-	}
-
-	.rootpage__contacts {
-		background: #32b5a4;
-
-	}
-
-	.rootpage__contacts a {
-		color: #ebe691;
-	}
-
-	.rootpage__tnx {
-		background: #c22d63;
-		margin: 0px 0px 1rem 0px;
-	}
-</style>
 
 </html>
